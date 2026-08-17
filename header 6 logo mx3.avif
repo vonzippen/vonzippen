@@ -1,0 +1,1803 @@
+<!DOCTYPE html>
+<html lang="it" class="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="mx3.ch - Swiss Music Portal: Where the music grows! 26 Radios & TVs search and broadcast the best new bands, songs & videos. Thousands of concerts, playlists and free downloads to discover. Mx3.ch, launched in 2006 by SRF Virus, SRF3, Couleur3, Rete Tre, and Radio Rumantsch. Täglich werden  von 26 Radio- & TV-Redaktionen die besten neuen Bands, Songs und Videos gesucht und ausgestrahlt. Tausende von Konzerten, Playlists und Free-Downloads zu entdecken. Mx3.ch, 2006  von SRF3, Couleur3, Rete Tre, Radio Rumantsch und SRF Virus gegründet. Chaque jour 26 rédactions Radio TV cherchent et diffusent les meilleurs nouveaux groupes, morceaux & vidéoclips. Des milliers de concerts, des playlists et des downloads gratuits à découvrir. Mx3.ch, créé en 2006 par Couleur3, SRF3, Rete Tre, Radio Rumantsch et SRF Virus. Ogni giorno 26 redazioni Radio e TV cercano e mandano in onda le migliori band, canzoni e video nuovi. Migliaia di concerti, playlist e download gratuiti da scoprire. Mx3.ch, creato nel 2006 da Rete Tre, SRF3, Couleur3, Radio Rumantsch e SRF Virus
+">
+    <title>Von Zippen - Mx3.ch</title>
+    <link rel="icon" type="image/x-icon" href="/assets/mx3/favicon-b2b4abe730d35dceb6398ab7433d8030cbc40fa287023f80cc26686382b1c574.ico" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="mx3">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="7vS8ZFGc0NBbtZ25C8HQQGoP3cyLXsR8OgkSyAgqciVwU5ry38KUsRvK4WP9Sz2ngkXDWC-w3j0zL0ZZlu7wvw" />
+    <link rel="stylesheet" href="/assets/tailwind-b6e70e437d500e33444a008f5b30ea216d356b1b6650bb9bf228bb40ad72795a.css" media="all" />
+    <link rel="stylesheet" href="/packs/css/application_2024-e84f7fa7.css" media="all" />
+
+    <!-- Main font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Icons  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+    <script src="/packs/js/application_2024-8edf8d121169f0210568.js"></script>
+      <script type="text/javascript" src="https://colibri-js.akamaized.net/penguin/tc_SRGGD_55.js"></script>
+  <script type="text/javascript">
+  document.addEventListener('turbo:load', () => {
+    if (typeof tC !== 'undefined') {
+      tC.event.virtualPageView()
+    }
+  })
+  </script>
+
+    
+
+        <meta property="og:title" content="Von Zippen" />
+<meta property="og:site_name" content="Mx3.ch" />
+<meta property="og:url" content="https://mx3.ch/vonzippen" />
+<meta property="og:description" content="The band follows the path of bands such as GN’R, L.A. Guns, Mötley Crüe, and Kix, unleashing the raw and pure energy within all of us! Both the band’s stage presence and its upcoming and highly anticipated EP “Ain’t Going Down No More” embody the electrifying and irresistible essence of rock ’n’ roll.
+
+Von Zippen’s lineup:
+Amos “Faze” Malorgio - vocals &amp; piano
+Samuele “Hedgehog” Cambianica - guitar
+Stefano “Staf” Martini - bass
+Rocco Vitale - drums" />
+<meta property="og:image" content="https://mx3.ch/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzIwMjk0LCJwdXIiOiJibG9iX2lkIn19--3a7362fb004fa41d875b55d00ba87b9d6ce40a20/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/logo_vonzippen.jpg" />
+<meta property="og:type" content="profile" />
+<meta property="fb:app_id" content="206476459379673" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Mx3music" />
+<meta name="twitter:title" content="Von Zippen" />
+<meta name="twitter:description" content="The band follows the path of bands such as GN’R, L.A. Guns, Mötley Crüe, and Kix, unleashing the raw and pure energy within all of us! Both the band’s stage presence and its upcoming and highly anticipated EP “Ain’t Going Down No More” embody the electrifying and irresistible essence of rock ’n’ roll.
+
+Von Zippen’s lineup:
+Amos “Faze” Malorgio - vocals &amp; piano
+Samuele “Hedgehog” Cambianica - guitar
+Stefano “Staf” Martini - bass
+Rocco Vitale - drums" />
+<meta name="twitter:image" content="https://mx3.ch/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzIwMjk0LCJwdXIiOiJibG9iX2lkIn19--3a7362fb004fa41d875b55d00ba87b9d6ce40a20/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/logo_vonzippen.jpg" />
+<meta name="twitter:url" content="https://mx3.ch/vonzippen" />
+<meta itemprop="name" content="Von Zippen">
+<meta itemprop="description" content="The band follows the path of bands such as GN’R, L.A. Guns, Mötley Crüe, and Kix, unleashing the raw and pure energy within all of us! Both the band’s stage presence and its upcoming and highly anticipated EP “Ain’t Going Down No More” embody the electrifying and irresistible essence of rock ’n’ roll.
+
+Von Zippen’s lineup:
+Amos “Faze” Malorgio - vocals &amp; piano
+Samuele “Hedgehog” Cambianica - guitar
+Stefano “Staf” Martini - bass
+Rocco Vitale - drums">
+<meta itemprop="image" content="https://mx3.ch/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzIwMjk0LCJwdXIiOiJibG9iX2lkIn19--3a7362fb004fa41d875b55d00ba87b9d6ce40a20/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/logo_vonzippen.jpg">
+
+
+  </head>
+
+  <body class="text-body-md relative font-sans font-normal text-gray-700 dark:text-gray-300 bg-fixed show red-theme to-pink-900 via-slate-800 bg-surface-500 from-gray-800 from-10% dark:bg-gradient-to-b" data-controller="spinner aria-announcer" data-action="aria-announcer:announce@window->aria-announcer#announce">
+    <div data-spinner-target="spinner" class="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50 z-[9999] hidden">
+      <div class="w-[50px] h-[50px] rounded-full border-[5px] border-gray-200 border-t-blue-500 animate-spin"></div>
+    </div>
+
+        <script
+        id="usercentrics-cmp"
+        src="https://app.usercentrics.eu/browser-ui/latest/loader.js"
+        data-ruleset-id="w5grYafxCHCrba"
+        async>
+    </script>
+
+    
+    <!-- Skip links for keyboard users -->
+    <a href="#main-content" class="sr-only focus:absolute focus:z-[100] focus:px-4 focus:py-2 focus:bg-primary-600 focus:text-white dark:focus:bg-primary-200 dark:focus:text-primary-800 focus:rounded">
+      Salta al contenuto principale
+    </a>
+    <a href="#site-navigation" class="sr-only focus:absolute focus:z-[100] focus:px-4 focus:py-2 focus:bg-primary-600 focus:text-white dark:focus:bg-primary-200 dark:focus:text-primary-800 focus:rounded">
+      Navigazione principale
+    </a>
+    
+    <header role="banner" data-type="navtop" class="nav-top [&.show]:translate-y-0 top-0 fixed h-[64px] px-1 pt-5 pb-[20px] lg:pb-0 lg:px-8 lg:pl-3 left-0 lg:left-72 right-0 flex flex-row items-center justify-between gap-3 z-[100] transition-all duration-300 ease-in-out bg-surface-500 bg-gradient-to-b from-transparent dark:from-gray-800 dark:from-10% dark:via-slate-800 to-white/80 dark:to-pink-900 bg-fixed">
+
+  <aside class="trigger-sidebar">
+    <!-- trigger sidebar -->
+    <button type="button" data-controller="dialog" data-dialog-show-class="show" data-action="dialog#open" data-dialog-target-id-value="#sidebar" class="text-black dark:text-white relative inline-flex lg:hidden items-center justify-center w-12 h-12 gap-x-2 py-2.5 px-6 rounded-[6.25rem] tracking-[.00714em] text-center font-medium hover:bg-primary-600/[0.08] focus:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08] dark:focus:bg-primary-200/[0.08]" aria-controls="sidebar" aria-expanded="false" aria-label="Apri il menu di navigazione">
+      <span class="material-symbols-outlined !text-[28px]">menu</span>
+    </button>
+  </aside>
+  <a href="/">
+    <div class="w-16 h-16 flex items-center text-white transform transition-transform duration-100 hover:scale-110 opacity-80 block lg:hidden">
+      <svg class="fill-current inline-block w-full h-full" viewBox="0 0 109 46">
+        <title>Mx3</title>
+        <path d="M32.0045 16.8083C33.205 17.6956 33.8102 18.8856 34.0495 20.3947L36.2344 41.6665L42.246 41.0542L40.0524 19.896C39.7049 16.6583 38.3959 14.0411 36.0028 12.1521C33.6181 10.1487 30.5738 9.36204 27.3438 9.59591C23.7548 10.033 21.1141 11.685 19.2913 14.7716C16.8324 12.189 13.9264 11.0672 10.3454 11.391C7.10762 11.7385 4.36048 13.2679 2.47123 15.6613C0.468337 18.0466 -0.188609 20.8699 0.0449713 24.1002L2.35272 45.2658L8.25777 44.531L5.94974 23.3651C5.94 21.8723 6.26375 20.5175 7.15142 19.317C8.03851 18.1161 9.34295 17.5193 10.958 17.4025C12.5736 17.2857 13.9278 17.6103 15.1283 18.4977C16.2147 19.3771 16.8124 20.6812 17.0508 22.19L19.2366 43.4627L25.2556 42.7356L23.0626 21.5775C22.9375 20.0767 23.2621 18.7221 24.1412 17.6355C25.0289 16.435 26.3333 15.8379 27.9564 15.6069C29.5714 15.4904 30.9262 15.8144 32.0045 16.8083Z"></path>
+        <path d="M48.6798 6.49628L41.833 15.7739L52.7354 23.997L44.2845 34.884L53.5544 41.845L61.7855 30.8272L72.8021 39.0584L79.6495 29.781L68.7465 21.5582L68.6234 21.6647L76.8549 10.6472L67.7 3.69417L59.4689 14.7117L48.6798 6.49628Z"></path>
+        <path d="M105.146 -5.55189e-06L79.7142 2.58283L80.3772 9.5158L92.8726 8.094L86.6266 20.2831C89.538 19.6837 91.747 19.2643 93.2398 19.254C98.0774 19.0182 100.683 21.1513 101.172 25.662C101.378 27.6277 100.916 29.3169 99.6699 30.7223C98.6597 32.0294 96.9971 32.8309 94.9095 33.1434C91.0912 33.566 88.5365 32.3537 87.3414 29.7448L80.0577 30.4988C80.7636 33.5322 82.5381 36.0672 85.3966 37.8734C88.2379 39.909 91.7382 40.7276 95.6701 40.3134C99.8299 39.9158 103.042 38.3037 105.428 35.3722C107.813 32.4396 108.755 28.8322 108.348 24.7867C108.009 21.4344 106.815 18.8255 104.886 16.8541C102.958 14.883 100.501 13.9077 97.4174 13.6922L105.146 -5.55189e-06Z"></path>
+      </svg>
+    </div>
+</a>
+  <!-- trigger compact layout -->
+  <button data-type="toggle" data-target="#body-layout" class="compact-btn group relative hidden  !items-center justify-center w-12 h-12 gap-x-2 py-2.5 px-6 rounded-[6.25rem] tracking-[.00714em] text-center font-medium hover:bg-primary-600/[0.08] focus:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08] dark:focus:bg-primary-200/[0.08]">
+    <span class="material-symbols-outlined !text-[28px] menu-close">menu_open</span>
+    <span class="material-symbols-outlined !text-[28px] menu-open">menu</span>
+  </button>
+
+  <!-- search form -->
+  <div class="relative w-full hidden md:block md:ml-4 lg:ml-0"
+       data-controller="search-dropdown">
+    <!-- desktop search -->
+    <div class="relative w-full">
+      <form action="/home/search" class="relative z-50">
+        <label for="header-search-input" class="sr-only">Lanciare la ricerca</label>
+        <button class="absolute left-1 top-1 hidden sm:inline-flex !items-center justify-center w-10 h-10 gap-x-2 p-2.5 rounded-[6.25rem] text-sm tracking-[.00714em] text-center font-medium hover:bg-primary-600/[0.08] focus:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08] dark:focus:bg-primary-200/[0.08]">
+          <span class="material-symbols-outlined !text-2xl">search</span>
+        </button>
+        <input
+          id="header-search-input"
+          name="q"
+          type="search"
+          placeholder="Cerca parole chiave..."
+          class="max-sm:absolute max-sm:inset-x-0 block w-40 sm:w-80 md:w-full pl-14 h-12 rounded-full bg-white dark:bg-gray-900 py-2 px-4 ring-0 focus:outline-none focus:shadow"
+          data-action="focus->search-dropdown#show blur->search-dropdown#hide"
+          data-search-dropdown-target="input">
+      </form>
+
+      <!-- Advanced search dropdown -->
+      <div
+        data-search-dropdown-target="dropdown"
+        class="absolute left-0 right-0 -mt-5 bg-white dark:bg-gray-900 rounded-t-none rounded-b-3xl shadow-lg pt-6 pr-5 pl-5 pb-4 hidden">
+        <p class="mt-1">
+          <a class="text-primary-600 dark:text-primary-400 hover:underline" href="/home/advanced_search">Ricerca avanzata</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- navbar right -->
+  <div class="flex flex-row items-center sm:gap-3 ml-auto md:ml-4 lg:ml-12">
+    <!-- mobile search trigger -->
+    <button data-controller="dialog" data-dialog-show-class="show" data-action="dialog#toggle" data-dialog-target-id-value="#dialog_search" class="btn relative inline-flex md:hidden !items-center justify-center w-12 h-12 gap-x-2 p-2.5 rounded-[6.25rem] text-sm tracking-[.00714em] text-center font-medium hover:bg-primary-600/[0.08] focus:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08] dark:focus:bg-primary-200/[0.08] ">
+      <span class="material-symbols-outlined !text-[28px]">search</span>
+    </button>
+
+    <div data-controller="dropdown theme" data-dropdown-show-class="show" data-dropdown-hidden-class="hidden" data-theme-dark-class="dark"  data-theme-cookie-name-value="theme" data-action="theme:closeDropdown@window->dropdown#hideMenuInstance" class="relative">
+      <button
+        type="button"
+        data-action="dropdown#toggle click@window->dropdown#hide"
+        class="btn relative !inline-flex !items-center justify-center w-12 h-12 gap-x-2 p-2.5 rounded-[6.25rem] text-sm tracking-[.00714em] text-center font-medium hover:bg-primary-600/[0.08] focus:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08] dark:focus:bg-primary-200/[0.08] uppercase"
+        aria-haspopup="true"
+        aria-controls="theme-menu"
+        aria-expanded="false"
+        aria-label="Cambia tema, selezione attuale: Usa le impostazioni di sistema"
+        data-theme-label-template-value="Cambia tema, selezione attuale: Usa le impostazioni di sistema">
+        <span class="sr-only" data-theme-target="label">Usa le impostazioni di sistema</span>
+        <span class="material-symbols-outlined !text-[24px] pointer-events-none" data-theme-target="button" aria-hidden="true">
+          dark_mode
+        </span>
+      </button>
+      <ul id="theme-menu" data-dropdown-target="menu" data-theme-target="menu" role="menu" class="[&.show]:!opacity-100 [&.show]:!visible opacity-0 invisible absolute top-[3.1rem] z-30 transition duration-400 ease-in-out left-auto right-0 transform md:translate-x-1/3  min-w-[150px] inline-flex flex-col py-2 rounded-xl bg-white dark:bg-gray-900 shadow-md dark:shadow-gray-50/10 max-sm:fixed max-sm:mt-3 max-sm:left-4 max-sm:right-4">
+        <li role="none" class="relative">
+          <button type="button" data-action="click->theme#change" data-theme-value="dark" role="menuitemradio" class="w-full text-left flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 hover:cursor-pointer">
+            <span class="material-symbols-outlined" aria-hidden="true">
+              dark_mode
+            </span>
+            Tema scuro
+          </button>
+        </li>
+        <li role="none" class="relative">
+          <button type="button" data-action="click->theme#change" data-theme-value="light" role="menuitemradio" class="w-full text-left flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 hover:cursor-pointer">
+            <span class="material-symbols-outlined" aria-hidden="true">
+              light_mode
+            </span>
+            Tema chiaro
+          </button>
+        </li>
+        <li role="none" class="relative">
+          <button type="button" data-action="click->theme#change" data-theme-value="system" role="menuitemradio" class="w-full text-left flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 hover:cursor-pointer">
+            <span class="material-symbols-outlined" aria-hidden="true">
+              computer
+            </span>
+            Tema del dispositivo
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div data-controller="dropdown" data-dropdown-show-class="show" data-dropdown-hidden-class="hidden" class="relative">
+      <button type="button" data-action="dropdown#toggle click@window->dropdown#hide" class="btn relative !inline-flex !items-center justify-center w-12 h-12 gap-x-2 p-2.5 rounded-[6.25rem] text-sm tracking-[.00714em] text-center font-medium hover:bg-primary-600/[0.08] focus:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08] dark:focus:bg-primary-200/[0.08] uppercase" aria-haspopup="true" aria-controls="locale-menu" aria-expanded="false" aria-label="Cambia lingua">it
+      </button>
+
+      <!-- menus -->
+      <ul id="locale-menu" data-dropdown-target="menu" role="menu" class="[&.show]:!opacity-100 [&.show]:!visible opacity-0 invisible absolute top-[3.1rem] z-30 transition duration-400 ease-in-out left-auto right-0 transform md:translate-x-1/3 min-w-[150px] inline-flex flex-col py-2 rounded-xl bg-white dark:bg-gray-900 shadow-md dark:shadow-gray-50/10 max-sm:fixed max-sm:mt-3 max-sm:left-4 max-sm:right-4">
+          <li role="none" class="relative">
+            <form class="button_to" method="post" action="/locales/update?locale=de"><input type="hidden" name="_method" value="put" autocomplete="off" /><button role="menuitemradio" class="w-full text-left flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 hover:cursor-pointer" type="submit">Deutsch</button><input type="hidden" name="authenticity_token" value="KKDX0ZHfqcX1EOVn51EXBcE2s0Y70AzFqlAtYRs3-7rqw40yOUjglfQhqAcjyjYVhM02EF2JWTi5F7Uhl2v47Q" autocomplete="off" /></form>
+          </li>
+          <li role="none" class="relative">
+            <form class="button_to" method="post" action="/locales/update?locale=fr"><input type="hidden" name="_method" value="put" autocomplete="off" /><button role="menuitemradio" class="w-full text-left flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 hover:cursor-pointer" type="submit">Français</button><input type="hidden" name="authenticity_token" value="0jvZquz9H9AVXl9_EObbK_ikFVXXVhPL9xVVwXrW0vEQWINJRGpWgBRvEh_Uffo7vV-QA7EPRjbkUs2B9orRpg" autocomplete="off" /></form>
+          </li>
+          <li role="none" class="relative">
+            <form class="button_to" method="post" action="/locales/update?locale=it"><input type="hidden" name="_method" value="put" autocomplete="off" /><button role="menuitemradio" class="w-full text-left flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 hover:cursor-pointer" type="submit">Italiano</button><input type="hidden" name="authenticity_token" value="P9JFi_VbFZ1o27ocGKgRyI0AmA2urqnpL9Iw75fesvD9sR9oXcxczWnq93zcMzDYyPsdW8j3_BQ8laivG4Kxpw" autocomplete="off" /></form>
+          </li>
+          <li role="none" class="relative">
+            <form class="button_to" method="post" action="/locales/update?locale=rm"><input type="hidden" name="_method" value="put" autocomplete="off" /><button role="menuitemradio" class="w-full text-left flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 hover:cursor-pointer" type="submit">Rumantsch</button><input type="hidden" name="authenticity_token" value="CM9ZM71_5Ex6CcKiTVn6KneOelR8mPu96xunhdzuJCXKrAPQFeitHHs4j8KJwts6MnX_AhrBrkD4XD_FULIncg" autocomplete="off" /></form>
+          </li>
+          <li role="none" class="relative">
+            <form class="button_to" method="post" action="/locales/update?locale=en"><input type="hidden" name="_method" value="put" autocomplete="off" /><button role="menuitemradio" class="w-full text-left flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 hover:cursor-pointer" type="submit">English</button><input type="hidden" name="authenticity_token" value="c3VezrA6QichSoE-SCsmzIqW89W1cZTjo4IPcwAuooSxFgQtGK0LdyB7zF6MsAfcz212g9MowR6wxZczjHKh0w" autocomplete="off" /></form>
+          </li>
+      </ul>
+    </div>
+
+    <div data-controller="dropdown" data-dropdown-show-class="show" data-dropdown-hidden-class="hidden" class="relative">
+      <button type="button" data-action="dropdown#toggle click@window->dropdown#hide" class="btn relative !inline-flex !items-center justify-center w-12 h-12 gap-x-2 p-2.5 rounded-[6.25rem] text-sm tracking-[.00714em] text-center font-medium hover:bg-primary-600/[0.08] focus:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08] dark:focus:bg-primary-200/[0.08]" aria-haspopup="true" aria-controls="account-menu" aria-expanded="false" aria-label="Menu account">
+          <span class="material-symbols-outlined" aria-hidden="true">account_circle</span>
+      </button>
+
+      <!-- menus -->
+      <ul data-dropdown-target=menu id=&quot;account-menu&quot; role="menu" class="[&.show]:!opacity-100 [&.show]:!visible opacity-0 invisible absolute top-[3.1rem] z-30 transition duration-400 ease-in-out left-auto right-0 min-w-[200px] inline-flex flex-col py-2 rounded-xl bg-white dark:bg-gray-900 shadow-md dark:shadow-gray-50/10 max-sm:fixed max-sm:mt-3 max-sm:left-4 max-sm:right-4">
+
+    <li role="none" class="relative">
+      <a role="menuitem" class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200" data-turbo="false" href="/admin/tracks">
+        <span class="material-symbols-outlined" aria-hidden="true">upload</span>
+        Upload
+</a>    </li>
+
+    <li role="none" class="relative">
+      <a role="menuitem" class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200" data-turbo="false" href="/admin/performances">
+        <span class="material-symbols-outlined" aria-hidden="true">calendar_add_on</span>
+        Concerti
+</a>    </li>
+
+
+  <li role="none" class="relative">
+    <a role="menuitem" class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200" href="mailto:info@mx3.ch">
+      <span class="material-symbols-outlined" aria-hidden="true">help_center</span>
+      Help
+</a>  </li>
+
+    <li role="none" class="relative border-t border-gray-100 dark:border-gray-800">
+      <a role="menuitem" class="w-full flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 hover:cursor-pointer" href="/sign_in">
+        <span class="material-symbols-outlined" aria-hidden="true">power_settings_new</span>
+        Connessione
+</a>    </li>
+</ul>
+
+    </div>
+  </div>
+</header>
+
+
+    <main id="main-content" class="lg:flex" role="main">
+      <nav id="site-navigation" role="navigation" aria-label="Navigazione principale">
+        <aside data-controller="dialog" data-dialog-show-class="show" data-dialog-target-id-value="#sidebar" id="sidebar"
+  data-dialog-opened-text="aperto"
+  data-dialog-closed-message="Dialogo chiuso"
+  role="complementary" aria-label="Navigazione principale" class="sidebar transition-all duration-500 ease-in-out fixed max-lg:z-[100] lg:shrink-0 lg:relative lg:w-72 h-screen max-lg:[&.show_.sidebar-bg]:opacity-60 dark:max-lg:[&.show_.sidebar-bg]:opacity-60 [&.show_.sidebar-bg]:inset-0 [&.show_.sidebar-content]:translate-x-0">
+  <!-- backdrop -->
+  <div data-action="click->dialog#close" class="sidebar-bg fixed z-40 opacity-0 -top-full bg-black max-lg:[.sidebar.show_&]:opacity-60"></div>
+
+  <!-- menu -->
+  <div id="sidebar-content" class="sidebar-content transition-all duration-300 ease-in-out fixed z-40 max-lg:-translate-x-full max-lg:bg-surface-500 dark:max-lg:bg-surfacedark-500 left-0 top-0 bottom-0 h-screen w-72 overflow-auto scrollbars">
+    <!-- logo -->
+    <a href="/" class="sidebar-logo pt-4 pb-2 pl-6 flex items-center w-full">
+      <div class="">
+        <img alt="Mx3.ch" width="150" height="100" style="margin-left:-23px; margin-top:63px" src="/assets/mx3/logo-79d1cc98fd379a36ad4af4c4269c0a848aa462c0fe20e299269c79166acf529b.png" />
+      </div>
+      <h4 class="text-2xl font-medium tracking-wide text-gray-900 dark:text-gray-100 compact-hide ml-2"> </h4>
+    </a>
+
+    <!-- Standart drawer -->
+    <div class="w-full inline-flex flex-col px-3 pb-3">
+      <!-- title & menu -->
+      <ul class="sidebar-menu flex flex-col">
+        <!-- Apps -->
+        <li data-controller="collapse" data-collapse-active-class="active" class="relative">
+          <button type="button" data-action="collapse#toggle" aria-expanded="false" aria-controls="side-nav-genres" class="flex flex-row items-center gap-3 py-3 pl-4 pr-6 mb-1 rounded-full hover-icon text-left w-full [&.active]:text-gray-900 dark:[&.active]:text-gray-100 [&.active]:bg-secondary-100 dark:[&.active]:bg-secondary-700 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]">
+            <span class="material-symbols-outlined">library_music</span>
+            <span class="compact-title"> Generi</span>
+          </button>
+          <ul id="side-nav-genres" data-collapse-target="collapsible" class="sidebar-submenu [&.active]:block hidden" aria-hidden="true">
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/chanson">Chanson</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/electro">Electro</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/folk-country">Folk/Country</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/funk">Funk</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/metal-punk">Metal/Punk</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/hip_hop">Hip Hop</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/jazz">Jazz</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/reggae">Reggae</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/rock">Rock</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/pop">Pop</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/techno">Techno</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/world">World</a>
+              </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/genre/easy-film">Easy/Film</a>
+              </li>
+          </ul>
+        </li>
+        <li data-controller="collapse" data-collapse-active-class="active" class="relative">
+          <button type="button" data-action="collapse#toggle" aria-expanded="false" aria-controls="side-nav-new" class="flex flex-row items-center gap-3 py-3 pl-4 pr-6 mb-1 rounded-full hover-icon text-left w-full [&.active]:text-gray-900 dark:[&.active]:text-gray-100 [&.active]:bg-secondary-100 dark:[&.active]:bg-secondary-700 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]">
+            <span class="material-symbols-outlined">new_releases</span>
+            <span class="compact-title">Nuovo</span>
+          </button>
+          <ul id="side-nav-new" data-collapse-target="collapsible" class="sidebar-submenu [&.active]:block hidden" aria-hidden="true">
+            <li>
+              <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/home/advanced_search?models%5B%5D=Track&amp;order=age">Brani</a>
+            </li>
+            <li>
+              <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/home/advanced_search?models%5B%5D=Band&amp;order=age">Bands</a>
+            </li>
+              <li>
+                <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/home/advanced_search?models%5B%5D=Playlist&amp;order=recently_updated">Playlists</a>
+              </li>
+            <li>
+              <a class="flex items-center py-3 pl-[52px] pr-6 mb-1 leading-none gap-2.5 rounded-full hover-icon [&amp;.active]:text-gray-900 dark:[&amp;.active]:text-gray-100 [&amp;.active]:bg-primary-600/[0.08] dark:[&amp;.active]:bg-primary-200/10 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]" href="/performances">Concerti</a>
+            </li>
+          </ul>
+        </li>
+          <li class="relative">
+            <a href="https://blog.mx3.ch/music-news/" target="_blank" class="flex flex-row items-center gap-3 py-3 pl-4 pr-6 mb-1 rounded-full hover-icon [&.active]:text-gray-900 dark:[&.active]:text-gray-100 [&.active]:bg-secondary-100 dark:[&.active]:bg-secondary-700 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]">
+              <span class="material-symbols-outlined">rss_feed</span>
+              <span class="compact-title">Blog</span>
+            </a>
+          </li>
+        <li class="relative">
+            <a href="https://discover.mx3.ch" target="_blank" class="flex flex-row items-center gap-3 py-3 pl-4 pr-6 mb-1 rounded-full hover-icon [&.active]:text-gray-900 dark:[&.active]:text-gray-100 [&.active]:bg-secondary-100 dark:[&.active]:bg-secondary-700 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]">
+            <span class="material-symbols-outlined">help_clinic</span>
+            <span class="compact-title">Discover Mx3</span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- title & menu -->
+      <div class="pt-6 pb-2 px-4 compact-hide">
+        <p class="text-title-sm font-medium uppercase text-gray-600 dark:text-gray-400">Explore</p>
+      </div>
+      <ul class="sidebar-menu flex flex-col">
+        <!-- Apps -->
+
+          <li class="relative">
+            <a href="https://volksmusik.mx3.ch" class="flex flex-row items-center gap-3 py-3 pl-10 pr-6 mb-1 rounded-full hover-icon [&.active]:text-gray-900 dark:[&.active]:text-gray-100 [&.active]:bg-secondary-100 dark:[&.active]:bg-secondary-700 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]">
+              <span class="material-symbols-outlined"> </span>
+              <span class="compact-title">Musica popolare</span>
+            </a>
+          </li>
+          <li class="relative">
+            <a href="https://neo.mx3.ch" class="flex flex-row items-center gap-3 py-3 pl-10 pr-6 mb-1 rounded-full hover-icon [&.active]:text-gray-900 dark:[&.active]:text-gray-100 [&.active]:bg-secondary-100 dark:[&.active]:bg-secondary-700 hover:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08]">
+              <span class="material-symbols-outlined"> </span>
+              <span class="compact-title">Musica Contemporanea</span>
+            </a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</aside>
+
+      </nav>
+
+      <div class="flex-grow">
+        
+
+<div class="main-content flex-grow min-h-[100%] max-w-[1400px] relative px-2 lg:pr-8 lg:pl-3">
+  <div class="grid grid-cols-1">
+    <div class="mt-24 relative">
+      <img class="w-52 h-52 rounded-full shadow-lg" alt="" src="https://mx3.ch/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzIwMjk0LCJwdXIiOiJibG9iX2lkIn19--3a7362fb004fa41d875b55d00ba87b9d6ce40a20/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/logo_vonzippen.jpg" />
+
+        <button
+          data-controller="playable"
+          data-playable-attributes-value="{&quot;playable&quot;:{&quot;json_path&quot;:&quot;/p/1200M8.json&quot;,&quot;path&quot;:&quot;/p/1200M8&quot;}}"
+          data-action="playable#play"
+          class="z-20 absolute left-40 top-40 hover:scale-110 text-white opacity-100 transform group-hover:translate-y-0 group-hover:opacity-100 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"></path>
+          </svg>
+        </button>
+    </div>
+    <div class="profile-name-bio">
+      <div class="relative mb-1 sm:mb-1">
+        <div
+          data-controller="dropdown"
+          data-dropdown-show-class="show"
+          data-dropdown-hidden-class="hidden"
+          class="flex flex-col sm:flex-row gap-4 sm:items-center place-content-start mt-5">
+          <h1 class="text-[40px] md:text-[74px] text-black dark:text-white mb-1 pr-5 leading-tight">
+            Von Zippen
+          </h1>
+          <div class="flex">
+              <button
+                class="btn-tonal relative inline-flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium hover:shadow bg-secondary-100 text-primary-900 dark:bg-secondary-700 dark:text-secondary-100"
+                data-controller="dialog"
+                data-dialog-show-class="show"
+                data-dialog-target-id-value="#profile-comments"
+                data-action="dialog#open">
+                <span class="material-symbols-outlined">mode_comment</span>
+              </button>
+
+            <div class="relative">
+  <button
+    class="ml-2 btn-tonal relative inline-flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium hover:shadow bg-secondary-100 text-primary-900 dark:bg-secondary-700 dark:text-secondary-100"
+    data-action="dropdown#toggle click@window->dropdown#hide">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+      <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
+    </svg>
+  </button>
+
+  <ul
+    data-dropdown-target="menu"
+    class="[&.show]:!opacity-100 [&.show]:!visible opacity-0 invisible absolute transition duration-400 ease-in-out min-w-[310px] inline-flex flex-col left-0 top-full mt-1 py-2 rounded-xl bg-white dark:bg-gray-900 shadow-md dark:shadow-gray-50/10 z-[80] text-sm">
+
+      <li>
+        <a href="mailto:vonzippenband@gmail.com">
+          <div class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 cursor-pointer">
+            <span class="material-symbols-outlined">mail</span>
+            Email
+          </div>
+</a>      </li>
+
+
+        <li>
+          <div class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 cursor-pointer">
+            <span class="material-symbols-outlined">local_activity</span>
+            <a href="/sign_in">Book this band!</a>
+          </div>
+        </li>
+
+
+      <li>
+        <div class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 cursor-pointer">
+          <span class="material-symbols-outlined">how_to_vote</span>
+          <form class="button_to" method="post" action="/band_votes?band_id=vonzippen"><button type="submit">Miglior band 20 anni</button><input type="hidden" name="authenticity_token" value="ibK1Yzm7vBqRFvr1VAqCBV4zD9I6xvCwY-S3FkshWVZobS_-hUgXJx3_URorTaZ4VPMOhVdbKxC5DjqLZ-cGyA" autocomplete="off" /></form>
+        </div>
+      </li>
+
+    <li>
+      <div class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 cursor-pointer">
+        <span class="material-symbols-outlined">flag</span>
+    <a href="mailto:info@mx3.ch?body=Segnalare%20contenuti%20inappropriati%20riguardo%20alla%20pagina%3A%20https%3A%2F%2Fmx3.ch%2Fvonzippen%0ASi%20prega%20di%20fornire%20una%20spiegazione%20dettagliata%20del%20perch%C3%A9%20il%20contenuto%20non%20%C3%A8%20appropriato%3A&amp;subject=Segnalare%20contenuti%20inappropriati%20per%20%22Von%20Zippen%22">Segnalare contenuti inappropriati</a>
+
+      </div>
+    </li>
+  </ul>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col max-w-[1200px]">
+      <section id="featured-cards">
+        <div class="relative w-full overflow-hidden mt-4 max-lg:w-[calc(100%+1rem)] max-lg:-ml-2">
+          <div class="snap-x snap-mandatory lg:gap-4 flex overflow-x-auto scrollbar-hide pb-6 mb-4 max-lg:[&_.snap-start]:!pl-2 max-lg:[&_.snap-start]:!pr-2 [&_.audio-card]:!w-auto [&_.video-card]:!w-auto [&_.audio-card_.card]:!w-[186px] [&_.video-card_.card]:!w-[330px] lg:[&_.snap-start]:!px-0 [&_.card]:h-[270px] [&_.card_.group]:h-[186px] [&_.audio-card_.group]:aspect-[1/1] [&_.video-card_.group]:aspect-[16/9] 2xl:[&>*]:px-2 [&>*:only-child_.card]:min-h-0 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+            
+<div class="snap-start flex-shrink-0 w-[calc(70%-20px)] sm:w-[calc(50%-10px)] md:w-[calc(33.333%-13.33px)] lg:w-[calc(25%-15px)] px-1 sm:px-2 min-w-[216px]">
+  <div class="card w-full flex flex-col min-w-[200px] h-[250px] sm:h-[270px] rounded-xl bg-surface-100 dark:bg-surfacedark-100 shadow-lg mr-3">
+    <div class="flex">
+        <div class="w-full h-20">
+  <div class="absolute pt-5 float-left hover:scale-110 transition-transform duration-500 ease-in-out">
+    <button data-type="dialogs" data-target="#dialog_xa">
+      <svg width="86px" height="48px" viewBox="0 0 86 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>ON AIR BADGE</title>
+        <defs></defs>
+        <g id="badge" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(42.399058, 23.039215) rotate(-6.000000) translate(-42.399058, -23.039215) translate(-2.100942, 2.539215)">
+        <path d="M4.73020422,0 L67.7995938,0 L67.7995938,-1.42108547e-14 C79.1200789,-6.23578348e-15 88.2971454,9.17706645 88.2971454,20.4975516 L88.2971454,20.4975516 L88.2971454,20.4975516 C88.2971454,31.7475305 79.1772356,40.8674403 67.9272567,40.8674403 C67.8848354,40.8674403 67.8424142,40.8673078 67.7999938,40.8670428 L0.479111976,40.4464409 L4.73020422,0 Z" id="Rectangle" fill="#1C93A1"></path>
+        <path d="M24.1825591,20.4497783 C24.1825591,24.8037121 21.6293264,27.5182018 18.1085527,27.5182018 C14.5877791,27.5182018 12.0345463,24.8037121 12.0345463,20.4497783 C12.0345463,16.0958445 14.5877791,13.3813549 18.1085527,13.3813549 C21.6293264,13.3813549 24.1825591,16.0958445 24.1825591,20.4497783 Z M22.5699911,20.4497783 C22.5699911,16.8752524 20.6080332,14.9401707 18.1085527,14.9401707 C15.6090722,14.9401707 13.6471144,16.8752524 13.6471144,20.4497783 C13.6471144,24.0243042 15.6090722,25.9593859 18.1085527,25.9593859 C20.6080332,25.9593859 22.5699911,24.0243042 22.5699911,20.4497783 Z M37.8894016,13.5694878 L36.2499574,13.5694878 L36.2499574,24.4005701 L36.1155767,24.4005701 L28.590259,13.5694878 L26.9776909,13.5694878 L26.9776909,27.3300688 L28.6440112,27.3300688 L28.6440112,16.5258627 L28.7783919,16.5258627 L36.2768335,27.3300688 L37.8894016,27.3300688 L37.8894016,13.5694878 Z M47.1079344,27.3300688 L45.3609857,27.3300688 L50.413699,13.5694878 L52.1337716,13.5694878 L57.186485,27.3300688 L55.4395362,27.3300688 L54.0554153,23.4330293 L48.4920554,23.4330293 L47.1079344,27.3300688 Z M49.01614,21.9548419 L53.5313306,21.9548419 L51.3274876,15.7464548 L51.219983,15.7464548 L49.01614,21.9548419 Z M61.0029083,13.5694878 L59.3365879,13.5694878 L59.3365879,27.3300688 L61.0029083,27.3300688 L61.0029083,13.5694878 Z M64.3355537,27.3300688 L64.3355537,13.5694878 L68.985125,13.5694878 C72.2102612,13.5694878 73.6615725,15.3567508 73.6615725,17.789041 C73.6615725,19.6166182 72.8418504,21.0477723 71.0881826,21.6457663 L74.1990952,27.3300688 L72.2640135,27.3300688 L69.3613909,21.9481228 C69.2471674,21.9548419 69.1329438,21.9548419 69.0120012,21.9548419 L66.0018741,21.9548419 L66.0018741,27.3300688 L64.3355537,27.3300688 Z M66.0018741,20.4497783 L68.9582489,20.4497783 C71.162092,20.4497783 72.0221283,19.4419233 72.0221283,17.789041 C72.0221283,16.1361587 71.162092,15.0476753 68.9313728,15.0476753 L66.0018741,15.0476753 L66.0018741,20.4497783 Z" id="ON-AIR" fill="#FFFFFF"></path>
+        </g>
+        </g>
+      </svg>
+    </button>
+  </div>
+</div>
+
+
+        <div class="flex items-center ml-auto mr-4">
+          <div class="flex -space-x-4 relative">
+                <div class="w-10 h-10 sm:w-12 sm:h-12 2xl:w-14 2xl:h-14 rounded-full overflow-hidden border-2 border-white dark:border-gray-800 " style="z-index: 0;">
+                  <a title="Rete Tre" href="/radios/retetre">
+                    <img class="w-full h-full object-cover" alt="Rete Tre" src="https://mx3.ch/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTA3MjkxLCJwdXIiOiJibG9iX2lkIn19--953686f17c307eb081cbae7c161d307c226877b1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzgwLDgwXSwic3RyaXAiOnRydWV9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--8ed4dbe7f815c468914de1f08301ea38f97a6385/retemx3.jpg" />
+</a>                </div>
+          </div>
+        </div>
+    </div>
+    <div class="w-full relative flex-grow flex flex-col">
+      <div class="relative profile-bio px-4 pt-2 flex-grow">
+        <div class="messina mt-2 md:text-base text-body-md dark:text-white leading-7 line-clamp-3 sm:line-clamp-4">
+          <span class="font-bold text-primary-400 dark:text-primary-200">Sleaze Rock, Hair Met..., Ticino</span>
+          –
+          The band follows the path of bands such as GN’R, L.A. Guns, Mötley Crüe, and Kix, unleashing the raw and pure energy within all of us! Both the band’s stage presence and its upcoming and highly...
+        </div>
+        <a class="mt-2 uppercase font-bold dark:text-white" data-controller="dialog" data-dialog-show-class="show" data-action="dialog#open" data-dialog-target-id-value="#profile-bio-full" href="javascript://">Leggi la biografia</a>
+      </div>
+      <div class="pt-2 pl-4 pb-4">
+        <p class="uppercase">
+            3632 visite
+            •
+            1950 ascolti
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+            
+
+
+              
+  <div 
+    data-track-id="490820"
+    class="snap-start audio-card flex-shrink-0 w-[194px] sm:w-[202px]  px-1 sm:px-2">
+    <div class="card h-[270px] rounded-xl bg-white dark:bg-gray-800 flex flex-col shadow-lg">
+      <div class="flex flex-row py-3 px-4 ">
+        <div class="w-full flex flex-row gap-4">
+          <div class="flex flex-col overflow-hidden">
+            <div class="text-sm truncate text-gray-900 dark:text-gray-100 tracking-wide font-bold">
+              <a data-turbo-frame="_top" class="card__target" href="/t/23Gs">You Have To Run Away</a>
+            </div>
+            <div class="text-sm truncate text-gray-900 dark:text-gray-100">
+                  <a data-turbo-frame="_top" href="/vonzippen">Von Zippen</a>
+
+            </div>
+            <p class="text-sm truncate">
+              Rock
+
+            </p>
+            <div class="text-sm truncate text-gray-900 dark:text-gray-100">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="group relative flex-grow">
+        <div class="w-full h-full relative">
+          <img alt="" class="max-w-full w-full h-full absolute object-cover rounded-b-lg" loading="lazy" src="https://mx3.ch/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc1MjQ3OSwicHVyIjoiYmxvYl9pZCJ9fQ==--2f03dee95a2a0717097f0baa69d644a72360f546/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--9d16704587ed04b54385155e23a992905e150b46/yhtra%20000%20copertina.png" />
+        </div>
+        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 flex justify-center items-center transition-all duration-300 rounded-b-lg">
+          <button
+            data-controller="playable"
+            data-playable-attributes-value="{&quot;playable&quot;:{&quot;json_path&quot;:&quot;/t/23Gs.json&quot;,&quot;path&quot;:&quot;/t/23Gs&quot;}}"
+            data-action="playable#play"
+            class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span class="bi bi-play-circle-fill" data-playable="{&quot;json_path&quot;:&quot;/t/23Gs.json&quot;,&quot;path&quot;:&quot;/t/23Gs&quot;}" data-cy="play-button"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"></path></svg></span>
+          </button>
+        </div>
+        
+        <div
+          data-controller="dropdown"
+          data-dropdown-show-class="show"
+          data-dropdown-hidden-class="hidden"
+          data-action="click@window->dropdown#hide"
+          class="absolute top-0 right-0">
+          <button
+            data-action="dropdown#toggle"
+            class="relative flex flex-row justify-center w-5 h-5 gap-x-2 py-2.5 px-4 rounded-full text-xs tracking-[.00714em] font-medium text-primary-600 hover:text-primary-200 dark:text-primary-200 dark:hover:text-primary-600">
+            <span class="material-symbols-outlined font-bold">more_vert</span>
+          </button>
+
+          <ul data-dropdown-target="menu" class="[&.show]:!opacity-100 [&.show]:!visible opacity-0 invisible absolute z-[99] transition duration-400 ease-in-out max-h-[184px] max-w-[182px] overflow-y-auto right-0 top-full inline-flex flex-col py-1 rounded-xl [&.active]:bg-primary-100 dark:[&.active]:bg-primary-700 bg-white dark:bg-gray-900 dark:shadow-gray-50/10 w-auto text-xs font-medium shadow-lg">
+            
+
+  <li class="relative cursor-pointer whitespace-nowrap">
+    <a class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 cursor-pointer" data-turbo="false" href="/sign_in">Aggiungere ad una playlist</a>
+  </li>
+<li class="relative cursor-pointer whitespace-nowrap">
+  <div class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200">
+    <a data-turbo-frame="_top" href="/t/23Gs">Vai alla pagina del brano</a>
+  </div>
+</li>
+
+
+
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div 
+    data-track-id="486127"
+    class="snap-start audio-card flex-shrink-0 w-[194px] sm:w-[202px]  px-1 sm:px-2">
+    <div class="card h-[270px] rounded-xl bg-white dark:bg-gray-800 flex flex-col shadow-lg">
+      <div class="flex flex-row py-3 px-4 ">
+        <div class="w-full flex flex-row gap-4">
+          <div class="flex flex-col overflow-hidden">
+            <div class="text-sm truncate text-gray-900 dark:text-gray-100 tracking-wide font-bold">
+              <a data-turbo-frame="_top" class="card__target" href="/t/22sL">Hit &#39;Em Back</a>
+            </div>
+            <div class="text-sm truncate text-gray-900 dark:text-gray-100">
+                  <a data-turbo-frame="_top" href="/vonzippen">Von Zippen</a>
+
+            </div>
+            <p class="text-sm truncate">
+              Rock
+
+            </p>
+            <div class="text-sm truncate text-gray-900 dark:text-gray-100">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="group relative flex-grow">
+        <div class="w-full h-full relative">
+          <img alt="" class="max-w-full w-full h-full absolute object-cover rounded-b-lg" loading="lazy" src="https://mx3.ch/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTcwNDAxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--749937ac1965319f0af2f988ee04d765d24d35aa/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--9d16704587ed04b54385155e23a992905e150b46/heb%20cover.png" />
+        </div>
+        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 flex justify-center items-center transition-all duration-300 rounded-b-lg">
+          <button
+            data-controller="playable"
+            data-playable-attributes-value="{&quot;playable&quot;:{&quot;json_path&quot;:&quot;/t/22sL.json&quot;,&quot;path&quot;:&quot;/t/22sL&quot;}}"
+            data-action="playable#play"
+            class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span class="bi bi-play-circle-fill" data-playable="{&quot;json_path&quot;:&quot;/t/22sL.json&quot;,&quot;path&quot;:&quot;/t/22sL&quot;}" data-cy="play-button"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"></path></svg></span>
+          </button>
+        </div>
+        
+        <div
+          data-controller="dropdown"
+          data-dropdown-show-class="show"
+          data-dropdown-hidden-class="hidden"
+          data-action="click@window->dropdown#hide"
+          class="absolute top-0 right-0">
+          <button
+            data-action="dropdown#toggle"
+            class="relative flex flex-row justify-center w-5 h-5 gap-x-2 py-2.5 px-4 rounded-full text-xs tracking-[.00714em] font-medium text-primary-600 hover:text-primary-200 dark:text-primary-200 dark:hover:text-primary-600">
+            <span class="material-symbols-outlined font-bold">more_vert</span>
+          </button>
+
+          <ul data-dropdown-target="menu" class="[&.show]:!opacity-100 [&.show]:!visible opacity-0 invisible absolute z-[99] transition duration-400 ease-in-out max-h-[184px] max-w-[182px] overflow-y-auto right-0 top-full inline-flex flex-col py-1 rounded-xl [&.active]:bg-primary-100 dark:[&.active]:bg-primary-700 bg-white dark:bg-gray-900 dark:shadow-gray-50/10 w-auto text-xs font-medium shadow-lg">
+            
+
+  <li class="relative cursor-pointer whitespace-nowrap">
+    <a class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200 cursor-pointer" data-turbo="false" href="/sign_in">Aggiungere ad una playlist</a>
+  </li>
+<li class="relative cursor-pointer whitespace-nowrap">
+  <div class="flex flex-row items-center gap-3 py-2.5 px-6 hover-icon hover:bg-surface-200 dark:hover:bg-surfacedark-200">
+    <a data-turbo-frame="_top" href="/t/22sL">Vai alla pagina del brano</a>
+  </div>
+</li>
+
+
+
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section id="tabs" class="backdrop-blur rounded-2xl mb-8 relative z-[1]">
+        <!-- tabs -->
+        <div data-controller="tabs" data-tabs-active-class="active" data-type="tabs-container" class="tabs flex flex-col w-full h-full mb-10 bg-white dark:bg-black rounded-2xl">
+          <!-- tabs header -->
+          <div role="tablist" class="relative flex flex-row items-center text-black dark:text-white rounded-2xl">
+              <button
+                data-action="tabs#open keydown->tabs#handleKeydown"
+                data-target-id="tab-tracks"
+                data-tabs-target="trigger"
+                role="tab"
+                aria-controls="tab-tracks"
+                aria-selected="true"
+                class="active w-1/5 sm:w-[120px] h-16 px-4 py-2 flex flex-col justify-end items-center gap-1 hover:bg-surface-100 dark:hover:bg-surfacedark-100 rounded-tl-2xl">
+                <span class="text-sm tracking-[.00714em] text-primary-400 dark:text-primary-200">7</span>
+                <span class="text-xs sm:text-sm uppercase">Brani</span>
+              </button>
+
+
+
+              <button
+                data-action="tabs#open keydown->tabs#handleKeydown"
+                data-target-id="tab-gigs"
+                data-tabs-target="trigger"
+                role="tab"
+                aria-controls="tab-gigs"
+                aria-selected="false"
+                class="w-1/5 sm:w-[120px] h-16 px-4 py-2 flex flex-col justify-end items-center gap-1 hover:bg-surface-100 dark:hover:bg-surfacedark-100">
+                <div class="flex flex-row">
+                  <span class="text-sm tracking-[.00714em] text-primary-400 dark:text-primary-200">27</span>
+
+                </div>
+                <span class="text-xs sm:text-sm tracking-[.00714em] uppercase">Concerti</span>
+              </button>
+
+              <button
+                data-action="tabs#open keydown->tabs#handleKeydown"
+                data-target-id="tab-playlists"
+                data-tabs-target="trigger"
+                role="tab"
+                aria-controls="tab-playlists"
+                aria-selected="false"
+                class="w-1/5 sm:w-[120px] h-16 px-4 py-2 flex flex-col justify-end items-center gap-1 hover:bg-surface-100 dark:hover:bg-surfacedark-100">
+                <span class="text-sm tracking-[.00714em] text-primary-400 dark:text-primary-200">2</span>
+                <span class="text-xs sm:text-sm tracking-[.00714em] uppercase">Playlists</span>
+              </button>
+
+              <button
+                data-action="tabs#open keydown->tabs#handleKeydown"
+                data-target-id="tab-pictures"
+                data-tabs-target="trigger"
+                role="tab"
+                aria-controls="tab-pictures"
+                aria-selected="false"
+                class="w-1/5 sm:w-[120px] h-16 px-4 py-2 flex flex-col justify-end items-center gap-1 hover:bg-surface-100 dark:hover:bg-surfacedark-100">
+                <span class="text-sm tracking-[.00714em] text-primary-400 dark:text-primary-200">12</span>
+                <span class="text-xs sm:text-sm tracking-[.00714em] uppercase">Foto</span>
+              </button>
+
+            <!-- indicator -->
+            <div data-tabs-target="indicator" data-type="indicator" class="absolute left-0 bottom-0 transition-all duration-200 ease-in-out bg-primary-600 dark:bg-primary-200 w-[40px] ml-[24px] sm:ml-[40px] h-0.5 rounded-t-full"></div>
+          </div>
+
+          <hr class="border-gray-200 dark:border-gray-700">
+
+          <!-- tabs content -->
+          <div class="flex flex-col">
+              <div data-tabs-target="tab" id="tab-tracks" role="tabpanel" class="active [&.active]:block hidden py-4 transition duration-400 ease-in-out">
+                <turbo-frame id="band_102688-tracks-1" src="/users/vonzippen/tracks" class="divide-y divide-surface-500 dark:divide-surfacedark-500">
+                </turbo-frame>
+              </div>
+
+
+
+              <div data-tabs-target="tab" id="tab-gigs" role="tabpanel" class="flex [&.active]:block hidden py-4 transition duration-400 ease-in-out">
+                
+
+  <input type="checkbox" id="toggle-past" class="peer opacity-0 absolute">
+  <label for="toggle-past" class="peer-checked:hidden ml-2 btn-tonal relative inline-flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium hover:shadow bg-secondary-100 text-primary-900 dark:bg-secondary-700 dark:text-secondary-100 cursor-pointer">
+    Visualizza concerti passati (27)
+  </label>
+
+  
+  <div class="md:w-1/2 hidden peer-checked:flex">
+    <span class="ml-6 mt-3 w-24 text-md text-primary-400 dark:text-primary-200 uppercase">Concerti passati</span>
+
+    <div class="ml-4 divide-y w-full">
+      
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>28.06</strong></div>
+    <div>2026</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/15k8">Winterthur - ZH</a>
+      </strong>
+    </div>
+    <div>
+        Hard Rock Zelt
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>27.06</strong></div>
+    <div>2026</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/15k7">Mendrisio - TI</a>
+      </strong>
+    </div>
+    <div>
+        Festa della Musica Mendrisio
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>01.11</strong></div>
+    <div>2025</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/14AS">Zürich - ZH</a>
+      </strong>
+    </div>
+    <div>
+        The Spot Bar
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>30.10</strong></div>
+    <div>2025</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/13WK">Lugano - TI</a>
+      </strong>
+    </div>
+    <div>
+        Studio Foce
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>28.08</strong></div>
+    <div>2025</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/13WJ">Zürich - ZH</a>
+      </strong>
+    </div>
+    <div>
+        Ebrietas
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>15.08</strong></div>
+    <div>2025</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/13WI">Winterthur - ZH</a>
+      </strong>
+    </div>
+    <div>
+        Labüsch Bar
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>31.05</strong></div>
+    <div>2025</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12ZL">Bülach - ZH</a>
+      </strong>
+    </div>
+    <div>
+        Bülacher Rock Festival
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>10.05</strong></div>
+    <div>2025</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/13Up">Bienne - BE</a>
+      </strong>
+    </div>
+    <div>
+        Skatepark SQETDUBAS Opening
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>13.09</strong></div>
+    <div>2024</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12pe">Kloten - ZH</a>
+      </strong>
+    </div>
+    <div>
+        Rock Night
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>31.08</strong></div>
+    <div>2024</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Nd">Lugano - TI</a>
+      </strong>
+    </div>
+    <div>
+        Interview &amp; Live Acoustic - Rete Tre Radio Studios
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>03.08</strong></div>
+    <div>2024</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12pd">Locarno - TI</a>
+      </strong>
+    </div>
+    <div>
+        Mono Bar
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>15.06</strong></div>
+    <div>2024</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12dH">Zürich - ZH</a>
+      </strong>
+    </div>
+    <div>
+        Ebrietas
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>20.04</strong></div>
+    <div>2024</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Nc">Locarno - TI</a>
+      </strong>
+    </div>
+    <div>
+        Mono Bar
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>22.12</strong></div>
+    <div>2023</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Nb">Emmen - LU</a>
+      </strong>
+    </div>
+    <div>
+        Viscose Eventhalle
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>17.09</strong></div>
+    <div>2022</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Na">Zürich - ZH</a>
+      </strong>
+    </div>
+    <div>
+        Preludium &amp; Friends - Theater Spirgarten
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>14.02</strong></div>
+    <div>2021</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12N9">Taverne - TI</a>
+      </strong>
+    </div>
+    <div>
+        Streaming Concert - Sala Prove La Torretta
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>11.12</strong></div>
+    <div>2019</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12N8">Lausanne - VD</a>
+      </strong>
+    </div>
+    <div>
+        Zelig
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>25.05</strong></div>
+    <div>2019</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12N5">Locarno - TI</a>
+      </strong>
+    </div>
+    <div>
+        Notte Bianca - Pardo Bar
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>14.07</strong></div>
+    <div>2018</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12N7">Cavigliano - TI</a>
+      </strong>
+    </div>
+    <div>
+        Giovani per l&#39;Africa
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>07.07</strong></div>
+    <div>2018</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12N6">Locarno - TI</a>
+      </strong>
+    </div>
+    <div>
+        Luci e Ombre (In Young People We Trust) - Società Canottieri
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>02.06</strong></div>
+    <div>2018</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Mo">Locarno - TI</a>
+      </strong>
+    </div>
+    <div>
+        Notte Bianca - Pardo Bar
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>18.05</strong></div>
+    <div>2018</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Mn">Lugano - TI</a>
+      </strong>
+    </div>
+    <div>
+        Palco ai Giovani (Finale) - Piazza Manzoni
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>24.02</strong></div>
+    <div>2018</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Mm">Lugano - TI</a>
+      </strong>
+    </div>
+    <div>
+        Palco ai Giovani (Winter Session) - Padiglione Conza
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>26.10</strong></div>
+    <div>2017</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Ml">Zürich - ZH</a>
+      </strong>
+    </div>
+    <div>
+        Alte Kaserne
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>07.10</strong></div>
+    <div>2017</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Mk">Locarno - TI</a>
+      </strong>
+    </div>
+    <div>
+        Locarno On Music - Piazza Grande
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>19.08</strong></div>
+    <div>2017</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Mj">Ascona - TI</a>
+      </strong>
+    </div>
+    <div>
+        Graffiskate23 - Skatepark Siberia
+    </div>
+  </div>
+</div>
+
+<div class="flex gap-x-8 p-3">
+  <div class="flex flex-col text-black dark:text-white">
+    <div><strong>29.04</strong></div>
+    <div>2017</div>
+  </div>
+  <div class="flex flex-col text-black dark:text-white">
+    <div>
+      <strong>
+          <a data-turbo-frame="_top" href="/c/12Mi">Bellinzona - TI</a>
+      </strong>
+    </div>
+    <div>
+        Espocentro
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+              </div>
+
+              <div data-tabs-target="tab" id="tab-playlists" class="[&.active]:block hidden py-4 transition duration-400 ease-in-out">
+                <turbo-frame id="band_102688-playlists-1" src="/users/vonzippen/playlists?per_page=10" loading="lazy"></turbo-frame>
+              </div>
+
+              <div data-tabs-target="tab" id="tab-pictures" class="[&.active]:block hidden py-4 transition duration-400 ease-in-out">
+                <div class="px-4 grid grid-cols-2 lg:grid-cols-3 gap-4">
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDcwLCJwdXIiOiJibG9iX2lkIn19--be3fa56865ce0283c2dedc48dcc50ccafc3603db/ensamble.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDcwLCJwdXIiOiJibG9iX2lkIn19--be3fa56865ce0283c2dedc48dcc50ccafc3603db/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/ensamble.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDY4LCJwdXIiOiJibG9iX2lkIn19--a90ce4d5f55627ed4aabfca50231cdb5476bb0cd/ensamble_stage.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDY4LCJwdXIiOiJibG9iX2lkIn19--a90ce4d5f55627ed4aabfca50231cdb5476bb0cd/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/ensamble_stage.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDY1LCJwdXIiOiJibG9iX2lkIn19--765164eb0086b25f5e63442ab5e92f0e883ce837/rocco_before.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDY1LCJwdXIiOiJibG9iX2lkIn19--765164eb0086b25f5e63442ab5e92f0e883ce837/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/rocco_before.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDYyLCJwdXIiOiJibG9iX2lkIn19--fb2a86472f4b6f4cef9f20f544750457cc9c448f/staf_before.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDYyLCJwdXIiOiJibG9iX2lkIn19--fb2a86472f4b6f4cef9f20f544750457cc9c448f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/staf_before.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDYwLCJwdXIiOiJibG9iX2lkIn19--ce7dc2fee5fba6488b378dceea8c88369c4fab12/hedgehog_before.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDYwLCJwdXIiOiJibG9iX2lkIn19--ce7dc2fee5fba6488b378dceea8c88369c4fab12/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/hedgehog_before.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDU3LCJwdXIiOiJibG9iX2lkIn19--5ad1b5245f062fac3354d5b6859d1085a1aef5b4/faze_before.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDU3LCJwdXIiOiJibG9iX2lkIn19--5ad1b5245f062fac3354d5b6859d1085a1aef5b4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/faze_before.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDUzLCJwdXIiOiJibG9iX2lkIn19--070247d2cac607e0d109101d7df4ff06bb5a7f9a/rocco_stage.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDUzLCJwdXIiOiJibG9iX2lkIn19--070247d2cac607e0d109101d7df4ff06bb5a7f9a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/rocco_stage.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDUxLCJwdXIiOiJibG9iX2lkIn19--0b90d36683785816cdbb12b6a4ab7e98db1bacef/staf_stage.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDUxLCJwdXIiOiJibG9iX2lkIn19--0b90d36683785816cdbb12b6a4ab7e98db1bacef/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/staf_stage.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDQ5LCJwdXIiOiJibG9iX2lkIn19--57a28d6e2ccb7300617f2792a9ab5323a440b9e7/hedgehog_stage.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDQ5LCJwdXIiOiJibG9iX2lkIn19--57a28d6e2ccb7300617f2792a9ab5323a440b9e7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/hedgehog_stage.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDQ2LCJwdXIiOiJibG9iX2lkIn19--78d923912ff98823db9eb12878ed494584c16ce8/faze_stage.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMDQ2LCJwdXIiOiJibG9iX2lkIn19--78d923912ff98823db9eb12878ed494584c16ce8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/faze_stage.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM5MTkzLCJwdXIiOiJibG9iX2lkIn19--998db700fa30735b9e817e60245cccbe31520324/vz-foto-profilo-riviste-e-mx3.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM5MTkzLCJwdXIiOiJibG9iX2lkIn19--998db700fa30735b9e817e60245cccbe31520324/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/vz-foto-profilo-riviste-e-mx3.jpg" />
+</a>    </div>
+    <div>
+      <a target="_blank" href="/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzIwMjk0LCJwdXIiOiJibG9iX2lkIn19--3a7362fb004fa41d875b55d00ba87b9d6ce40a20/logo_vonzippen.jpg">
+        <img class="rounded-2xl w-full" src="/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzIwMjk0LCJwdXIiOiJibG9iX2lkIn19--3a7362fb004fa41d875b55d00ba87b9d6ce40a20/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZmlsbCI6WzQwMCw0MDBdLCJzdHJpcCI6dHJ1ZX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--ea24e3fe096cfbc72f22570438b8826307cae5b8/logo_vonzippen.jpg" />
+</a>    </div>
+</div>
+
+              </div>
+          </div>
+        </div>
+      </section>
+
+        <section id="links">
+          <div class="mb-36">
+              <a title="https://open.spotify.com/intl-it/artist/2YL6hpymmOzzylwFvU7ZV2?si=bi7NauHfRXqjSlDS_pxSVw" target="_blank" rel="ugc nofollow noopener" class="my-2 mx-1 btn-outline relative inline-flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium border border-gray-500 text-primary-600 dark:border-gray-400 dark:text-primary-200" href="https://open.spotify.com/intl-it/artist/2YL6hpymmOzzylwFvU7ZV2?si=bi7NauHfRXqjSlDS_pxSVw">
+                Spotify
+</a>              <a title="https://www.vonzippen.com" target="_blank" rel="ugc nofollow noopener" class="my-2 mx-1 btn-outline relative inline-flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium border border-gray-500 text-primary-600 dark:border-gray-400 dark:text-primary-200" href="https://www.vonzippen.com">
+                Sito web
+</a>              <a title="https://linktr.ee/vonzippen" target="_blank" rel="ugc nofollow noopener" class="my-2 mx-1 btn-outline relative inline-flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium border border-gray-500 text-primary-600 dark:border-gray-400 dark:text-primary-200" href="https://linktr.ee/vonzippen">
+                Linktree
+</a>              <a title="https://www.instagram.com/vonzippen/" target="_blank" rel="ugc nofollow noopener" class="my-2 mx-1 btn-outline relative inline-flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium border border-gray-500 text-primary-600 dark:border-gray-400 dark:text-primary-200" href="https://www.instagram.com/vonzippen/">
+                Instagram
+</a>              <a title="https://www.facebook.com/VonZippen/" target="_blank" rel="ugc nofollow noopener" class="my-2 mx-1 btn-outline relative inline-flex flex-row items-center justify-center gap-x-2 py-2.5 px-6 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium border border-gray-500 text-primary-600 dark:border-gray-400 dark:text-primary-200" href="https://www.facebook.com/VonZippen/">
+                Facebook
+</a>          </div>
+        </section>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </main>
+
+    <footer role="contentinfo" class="footer px-6 lg:px-8 left-0 lg:pl-[19.5rem] relative bottom-0 right-0">
+  <div class="text-left py-6">
+    <p>&copy; 2006-2026 SRG SSR • <a href="mailto:info@mx3.ch">Contatto</a> • <a target="_blank" href="https://developer.srgssr.ch/apis/srgssr-mx3#overview">API</a> • <a target="_blank" href="/home/legal">Termini legali</a> •  <a target="_blank" href="/home/privacy">Impostazioni sulla privacy</a></p>
+  </div>
+</footer>
+
+    
+    
+    
+      <div
+    data-controller="notification"
+    data-notification-id-value="band_vote_20_years"
+    data-notification-cookie-name-value="notification_removed">
+    <div
+      data-notification-target="notificationElement"
+      class="min-h-[44px] z-[101] bottom-0 fixed z-[60] pr-14 pl-3 bg-[#531ca0] flex w-full btn-elevated items-center justify-center gap-x-2 py-2.5 text-white shadow-lg text-sm tracking-[.00714em] font-medium">
+      <a class="flex items-center gap-x-2 hover:underline" href="/sign_in">
+        <span class="material-symbols-outlined" aria-hidden="true">trophy</span>
+        <span>Vota il miglior gruppo degli ultimi 20 anni</span>
+</a>      <button
+        data-notification-target="closeButton"
+        data-action="click->notification#close"
+        class="absolute flex items-center justify-center right-0 hover:scale-110 top-1/2 -translate-y-1/2 h-[44px] w-[44px]">
+        <span class="material-symbols-outlined icon-active">close</span>
+      </button>
+    </div>
+
+    <!-- Live region to announce notifications for screen readers -->
+    <div aria-live="polite" class="sr-only" data-notification-target="liveRegion"></div>
+  </div>
+
+    
+    <div
+  id="player"
+  data-turbo-permanent
+  data-controller="player"
+  data-player-show-class="show"
+  data-player-hidden-class="hidden"
+  data-player-active-class="active"
+  data-action="
+    playable:play@window->player#play
+    playable:playShow@window->player#playShow
+  "
+  class="[&.show_.sheet]:translate-y-0 [&.show]:h-24">
+
+  <!-- Video element -->
+  <div class="hidden lg:left-72 max-w-[1200px] w-[calc(100%-2rem)] lg:w-[calc(100vw-18rem-44px)] bg-black rounded-lg overflow-hidden">
+    <video
+  data-player-target="player"
+  data-action="
+    playing->player#playing
+    pause->player#paused
+    durationchange->player#durationchange
+    timeupdate->player#timeupdate
+    ended->player#ended
+    touchstart@window->player#unlockPlayback:once
+    playable:play@window->player#play
+    playable:resume@window->player#resume
+    playable:skipToTrack@window->player#skipToTrack
+    playlist:pause@window->player#pause
+    playlist:next@window->player#next
+    playlist:prev@window->player#previous
+    mouseenter->player#showControls
+    mouseleave->player#hideControls
+    click->player#togglePlay
+    resize@window->player#repositionVideo
+    scroll@window->player#scroll
+    fullscreenchange@document->player#fullscreenChange
+    webkitfullscreenchange@document->player#fullscreenChange
+    MSFullscreenChange@document->player#fullscreenChange
+    mozfullscreenchange@document->player#fullscreenChange
+    canplay->player#loaded
+    keydown.space@document->player#spaceDown
+    playing-now-indicator:set@document->player#playingIndicatorSet
+    playable:loadTrackInfo@window->player#loadTrackInfo
+  "
+  preload="metadata"
+  controlsList="nodownload"
+  oncontextmenu="return false;"
+  playsinline
+  class="w-full h-full object-center bg-center bg-contain bg-no-repeat">
+  <!-- silent audio -->
+  <source src="data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA">
+</video>
+
+    <div data-player-target="controls" data-action="mouseenter->player#showControls mouseleave->player#hideControls" data-player-controls-show-class="show" data-player-controls-hidden-class="hidden"
+  class="controls flex flex-wrap items-center absolute bottom-0 left-0 right-0 pl-3 pr-3 sm:px-5 sm:py-3 py-2 rounded-b-lg hidden">
+  <div class="w-0 h-0 before:block before:absolute before:pointer-events-none before:w-full before:h-[calc(100%+30px)] before:top-[-30px] before:left-0 before:bg-gradient-to-b before:from-transparent before:to-zinc-800">&nbsp;</div>
+  <div class="progress w-full pb-3 pt-3 relative cursor-pointer group-[.playlist:not(.started)]/embed-wrapper:!hidden" data-player-target="progressFull" data-action="click->player#seeked">
+    <div class="flex bg-white dark:bg-gray-700 h-1 w-full bg-opacity-50">
+      <div data-player-target="progress" class="flex bg-primary-600 dark:bg-primary-200 bg-opacity-100" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Avanzamento della riproduzione" aria-valuetext="0:00 of 0:00">
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-wrap w-full h-[44px]">
+    <div class="flex h-[44px] group-[.playlist:not(.started)]/embed-wrapper:opacity-0 flex-grow mr-3">
+      <button data-player-target="playButton" data-action="player#resume" id="play-bt-whitecircle" class="z-20 duration-500 text-white opacity-100 transform group-hover:opacity-100 hover:scale-110" aria-label="Riproduci">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"></path>
+        </svg>
+      </button>
+      <button data-player-target="pauseButton" data-action="player#pause" id="pause-bt-whitecircle" class="z-20 duration-500 text-white opacity-100 transform group-hover:opacity-100 hidden hover:scale-110 group-[.playlist:not(.started)]/embed-wrapper:!hidden" aria-label="Pausa">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pause-circle-fill" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.25 5C5.56 5 5 5.56 5 6.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C7.5 5.56 6.94 5 6.25 5m3.5 0c-.69 0-1.25.56-1.25 1.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C11 5.56 10.44 5 9.75 5" />
+        </svg>
+      </button>
+      <div class="text-center p-0 relative z-1 ml-3">
+        <button class="peer z-[5] relative hover:text-[#ffffff] hover:no-underline hover:scale-110 h-[44px] w-[44px] flex items-center justify-center pointer-events-auto " data-action="click->player#toggleVolume" data-player-target="volume" aria-label="Attiva/disattiva il controllo del volume" aria-expanded="false" aria-controls="volume-slider">
+          <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.65503 4.25L10.655 0.5V15.5L4.65503 11.75V4.25ZM0.155029 11.75H3.15503V4.25H0.155029V11.75ZM15.353 1.802L14.2303 2.92475C15.6155 4.262 16.4675 6.0425 16.4675 8C16.4675 9.9575 15.6163 11.738 14.2303 13.0745L15.3538 14.198C17.0825 12.5832 18.155 10.4067 18.155 8C18.155 5.59325 17.0825 3.4175 15.353 1.802ZM14.9863 8C14.9863 6.437 14.3 5.02475 13.1983 3.95675L12.071 5.084C12.8293 5.87075 13.2988 6.88475 13.2988 8C13.2988 9.116 12.8315 10.1307 12.0733 10.9182L13.2005 12.0455C14.3015 10.9775 14.9863 9.56375 14.9863 8Z" fill="white"/>
+</svg>
+
+        </button>
+        <div id="volume-slider" class="peer-[.active]:!flex hidden pr-[10px] bg-black h-[44px] pl-[40px] volume pointer-events-auto absolute bottom-[-22px] left-[20px] origin-left -rotate-90 rounded-[20px]" data-player-target="volumeMenu" aria-hidden="true">
+          <input type="range" value="100" min="0" max="100" step="1" data-action="input->player#changeVolume change->player#changeVolume" class="accent-gray-100 w-[65px]" aria-label="Livello del volume" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">
+        </div>
+      </div>
+      <div class="h-[44px] leading-[44px] flex-grow text-white z-1 relative pl-2 sm:pl-2 pointer-events-none flex-shrink basis-1 flex flex-wrap text-[14px]">
+        <span data-player-target="currentTime"></span>&nbsp;<span class="light text-[rgba(255, 255, 255, 0.6)] flex">/&nbsp;<span class="" data-player-target="duration"></span></span>
+      </div>
+      <button type="button" class="hover:no-underline hover:text-[#ffffff] hover:scale-110 z-1 relative w-[44px] text-white leading-[40px] p-0 text-center pointer-events-auto focus:text-[#ffffff] border-b-2 pt-[2px] border-[transparent] [&.active]:border-white" data-player-target="hd" data-action="click->player#toggleHd" aria-pressed="false" aria-label="Attiva/disattiva la modalità HD">HD</button>
+      <button type="button" class="hover:no-underline hover:text-[#ffffff] hover:scale-110 z-1 relative text-white pointer-events-auto h-[44px] w-[44px] p-0 flex items-center justify-center color-white" data-player-target="fullsize" data-action="click->player#toggleFullsize" aria-label="Attiva la modalità a schermo intero">
+        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" id="entypo-resize-full-screen" width="20" height="20"><g><path d="M6.987 10.987l-2.931 3.031L2 11.589V18h6.387l-2.43-2.081 3.03-2.932-2-2zM11.613 2l2.43 2.081-3.03 2.932 2 2 2.931-3.031L18 8.411V2h-6.387z"></path></g></svg>
+
+      </button>
+      <button type="button" class="hover:no-underline hover:text-[#ffffff] hover:scale-110 z-1 relative text-white pointer-events-auto h-[44px] w-[44px] p-0 flex items-center justify-center color-white hidden" data-player-target="smallsize" data-action="click->player#toggleFullsize" aria-label="Disattiva la modalità a schermo intero">
+        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" id="entypo-resize-100%" width="20" height="20"><g><path d="M4.1 14.1L1 17l2 2 2.9-3.1L8 18v-6H2l2.1 2.1zM19 3l-2-2-2.9 3.1L12 2v6h6l-2.1-2.1L19 3z"></path></g></svg>
+
+      </button>
+    </div>
+    <a href="https://mx3.ch" target="_blank" class="h-[44px] watermark sm:mt-[-2px] z-1 hover:no-underline hover:scale-110 hover:text-[#ffffff] relative text-white float-right relative h-[44px] w-[35px] sm:w-[60px] group-[.was-started]/cpw:w-[44px] top-[-50px] group-[.was-started]/cpw:top-0 ml-auto static top-auto pointer-events-auto" title="https://mx3.ch">
+      <svg class="fill-current block w-full h-full" viewBox="0 0 109 46">
+  <title>Mx3</title>
+  <path d="M32.0045 16.8083C33.205 17.6956 33.8102 18.8856 34.0495 20.3947L36.2344 41.6665L42.246 41.0542L40.0524 19.896C39.7049 16.6583 38.3959 14.0411 36.0028 12.1521C33.6181 10.1487 30.5738 9.36204 27.3438 9.59591C23.7548 10.033 21.1141 11.685 19.2913 14.7716C16.8324 12.189 13.9264 11.0672 10.3454 11.391C7.10762 11.7385 4.36048 13.2679 2.47123 15.6613C0.468337 18.0466 -0.188609 20.8699 0.0449713 24.1002L2.35272 45.2658L8.25777 44.531L5.94974 23.3651C5.94 21.8723 6.26375 20.5175 7.15142 19.317C8.03851 18.1161 9.34295 17.5193 10.958 17.4025C12.5736 17.2857 13.9278 17.6103 15.1283 18.4977C16.2147 19.3771 16.8124 20.6812 17.0508 22.19L19.2366 43.4627L25.2556 42.7356L23.0626 21.5775C22.9375 20.0767 23.2621 18.7221 24.1412 17.6355C25.0289 16.435 26.3333 15.8379 27.9564 15.6069C29.5714 15.4904 30.9262 15.8144 32.0045 16.8083Z"></path>
+  <path d="M48.6798 6.49628L41.833 15.7739L52.7354 23.997L44.2845 34.884L53.5544 41.845L61.7855 30.8272L72.8021 39.0584L79.6495 29.781L68.7465 21.5582L68.6234 21.6647L76.8549 10.6472L67.7 3.69417L59.4689 14.7117L48.6798 6.49628Z"></path>
+  <path d="M105.146 -5.55189e-06L79.7142 2.58283L80.3772 9.5158L92.8726 8.094L86.6266 20.2831C89.538 19.6837 91.747 19.2643 93.2398 19.254C98.0774 19.0182 100.683 21.1513 101.172 25.662C101.378 27.6277 100.916 29.3169 99.6699 30.7223C98.6597 32.0294 96.9971 32.8309 94.9095 33.1434C91.0912 33.566 88.5365 32.3537 87.3414 29.7448L80.0577 30.4988C80.7636 33.5322 82.5381 36.0672 85.3966 37.8734C88.2379 39.909 91.7382 40.7276 95.6701 40.3134C99.8299 39.9158 103.042 38.3037 105.428 35.3722C107.813 32.4396 108.755 28.8322 108.348 24.7867C108.009 21.4344 106.815 18.8255 104.886 16.8541C102.958 14.883 100.501 13.9077 97.4174 13.6922L105.146 -5.55189e-06Z"></path>
+</svg>
+
+    </a>
+  </div>
+</div>
+
+  </div>
+
+  <!-- bottom sheets content -->
+  <div class="sheet bottom-0 fixed h-24 left-0 right-0 z-[90]  flex flex-col items-center w-full sm:w-11/12 lg:w-11/12 gap-4 sm:mx-auto sm:rounded-[28px] transition-transform translate-y-full duration-[400ms] bg-gradient-to-b from-stone-300 via-surface-800 to-surface-100 dark:bg-gradient-to-t dark:from-stone-800 dark:to-stone-700 shadow-xl">
+    <!-- content -->
+    <div class="h-24 justify-between w-full relative  overflow-hidden p-2 sm:rounded-[28px]">
+      <div id="trigger-maxi-player-mobile" class="z-0 absolute top-0 left-0  w-full h-full sm:invisible">
+        <button
+          data-type="dialogs"
+          data-target="#sheets_track"
+          class="z-10 w-full h-full hover:scale-110 opacity-10 hover:bg-primary-100 translate-y-0 group-hover:translate-y-3 transition hover:text-black dark:hover:text-white"
+          type="button"
+          aria-label="Espandi il player"
+        ></button>
+      </div>
+      <div class="justify-left z-30 " data-action="click->player#toggleExpand">
+        <img data-player-target="artistImage" class="z-30 absolute -top-8 -left-6 w-40 h-40 rounded-full shadow dark:shadow-lg" src="">
+        <img data-player-target="trackCover" class="z-20 hover:z-40 absolute  top-0 left-28 w-24 h-24 rounded shadow dark:shadow-lg hidden lg:flex opacity-70 hover:opacity-100" src="">
+      </div>
+
+      <div id="track-infos" class="absolute left-36 lg:left-56 top-6 justify-left  w-[calc(100%-9rem)] pointer-events-none">
+        <div class="flex-initial w-[calc(100%-125px)] sm:w-[calc(100%-160px)] md:w-[calc(50%-7rem)] lg:w-[calc(50%-12rem)] xl:w-[calc(50%-14rem)] pointer-events-auto">
+          <div>
+            <h2 data-player-target="title" data-action="click->player#toggleExpand" class="whitespace-nowrap overflow-hidden text-ellipsis w-full text-title-md text-gray-900 dark:text-gray-100 ml-2 font-bold"></h2>
+          </div>
+          <div class="flex items-center pt-1 pl-2">
+            <img data-player-target="showVendorLogo" class="w-[24px] h-auto mr-1" src="">
+            <h3 data-player-target="artist" data-action="click->player#toggleExpand" class="whitespace-nowrap overflow-hidden text-ellipsis w-full text-title-md text-gray-900 dark:text-gray-100 "></h3>
+          </div>
+        </div>
+        <div class="flex gap-4 mt-3 hidden">
+          <span aria-label="Favorite" data-microtip-position="top" role="tooltip"><div class="invisible xl:visible material-symbols-outlined  hover:scale-110   transition duration-500 select-none cursor-pointer">favorite</div> </span>
+          <!-- trigger dialog -->
+          <button class="invisible xl:visible inline-flex flex-row items-center justify-center gap-x-2 py-0 px-0 h-6 w-12 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium bg-secondary-100 text-primary-900 dark:bg-secondary-700 dark:text-secondary-100 hover:bg-surface-200 dark:hover:bg-surfacedark-200">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+              <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+
+      <div id="buttons-player" class="md:w-auto flex md:justify-center items-center pt-3 justify-end ">
+        <button
+          type="button"
+          data-type="dialogs"
+          data-player-target="expandToggle"
+          data-action="player#toggleExpand"
+          data-player-expanded-label="Riduci il player"
+          data-player-collapsed-label="Espandi il player"
+          aria-controls="player-expanded-dialog"
+          aria-expanded="false"
+          aria-label="Espandi il player"
+          class="md:absolute md:right-4 md:h-[36px] transform w-10 sm:w-20 lg:hidden rounded-full z-30 mt-2 mr-3 h-full pt-1 pb-1 flex items-center justify-center hover:scale-110 opacity-100 bg-primary-100 hover:bg-primary-300 dark:bg-black dark:hover:bg-primary-700 group-hover:translate-y-3 transition hover:text-black dark:hover:text-white"><span class="float material-symbols-outlined font-bold text-xl" aria-hidden="true">expand_circle_up</span></button>
+
+        <button
+          type="button"
+          data-player-target="previousButton"
+          data-action="player#previous"
+          aria-label="Traccia precedente"
+          class="hover:scale-110 duration-500 transition">
+          <div class="mt-2 mr-2 hidden xl:flex">
+            <span class="text-3xl hover:text-black dark:hover:text-white material-symbols-outlined" aria-hidden="true">skip_previous</span>
+          </div>
+        </button>
+
+        <button
+          type="button"
+          data-player-target="playButton"
+          data-action="player#resume"
+          id="play-bt-whitecircle"
+          aria-label="Riproduci"
+          class="z-20 mt-2 hover:scale-110 duration-500 text-black dark:text-white opacity-100 transform group-hover:opacity-100 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"></path>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          data-player-target="pauseButton"
+          data-action="player#pause"
+          id="pause-bt-whitecircle"
+          aria-label="Pausa"
+          class="z-20 mt-2 hover:scale-110 duration-500 text-black dark:text-white opacity-100 transform group-hover:opacity-100 transition hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pause-circle-fill" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.25 5C5.56 5 5 5.56 5 6.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C7.5 5.56 6.94 5 6.25 5m3.5 0c-.69 0-1.25.56-1.25 1.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C11 5.56 10.44 5 9.75 5" />
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          data-player-target="nextButton"
+          data-action="player#next"
+          aria-label="Traccia successiva"
+          class="ml-2 hover:scale-110  duration-500 transition">
+          <div class="mt-2 hidden xl:flex">
+            <span class="text-3xl hover:text-black dark:hover:text-white material-symbols-outlined" aria-hidden="true">skip_next</span>
+          </div>
+        </button>
+      </div>
+
+      <div id="controls-player" class="absolute right-6 top-6  hidden lg:flex grid grid-cols-4 gap-5 pt-2 justify-end ">
+        <div class="invisible xl:visible pt-4 pb-4 flex w-60" data-player-target="progressFull" data-action="click->player#seeked">
+          <div class="bg-white h-1 w-full">
+            <div data-player-target="progress" class=" flex bg-primary-600 dark:bg-primary-200 h-1" role="progressbar" aria-label="Avanzamento della riproduzione" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-valuetext="0:00 of 0:00"></div>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          data-type="dialogs"
+          data-player-target="expandToggle"
+          data-action="player#toggleExpand"
+          data-player-expanded-label="Riduci il player"
+          data-player-collapsed-label="Espandi il player"
+          aria-controls="player-expanded-dialog"
+          aria-expanded="false"
+          aria-label="Espandi il player"
+          class="transform w-10 sm:w-20 hidden md:flex rounded-full z-30 mr-3 h-full pt-1 pb-1 flex items-center justify-center hover:scale-110 opacity-100 bg-primary-100 hover:bg-primary-300 dark:bg-black dark:hover:bg-primary-700 group-hover:translate-y-3 transition hover:text-black dark:hover:text-white"><span class="float material-symbols-outlined font-bold text-xl" aria-hidden="true">expand_circle_up</span></button>
+
+        <button
+          type="button"
+          data-type="sheets"
+          data-target="#sheets_playlist"
+          aria-label="Apri la playlist"
+          aria-controls="sheets_playlist"
+          class="hover:scale-110  translate-y-0 group-hover:translate-y-3 transition hover:text-black dark:hover:text-white hidden">
+          <span aria-hidden="true" data-microtip-position="top" role="presentation"><div class="-mt-2 material-symbols-outlined icon-active float-left">list</div></span></button>
+
+        <div id="volume">
+          <button
+            type="button"
+            class="text-base icon  icon-volume hover:text-black dark:hover:text-white "
+            data-role="volume"
+            aria-label="Attiva/disattiva il controllo del volume"></button>
+        </div>
+        <div></div>
+      </div>
+
+    </div>
+  </div>
+
+  <div
+    id="player-expanded-dialog"
+    data-player-target="expandDialog"
+    class="sm:max-w-[500px] overflow-hidden px-5 pb-5 overflow-y-auto max-h-[70%] bottom-0 fixed left-0 right-0 z-[60] transition-transform translate-y-full duration-[400ms] flex flex-col sm:mx-auto w-full lg:w-1/2 rounded-t-[28px] bg-surface-100 dark:bg-surfacedark-100 shadow-xl [&.sheet]:bottom-[96px] bg-gradient-to-t from-stone-300 via-surface-800 to-surface-100 dark:bg-gradient-to-t dark:from-stone-800 dark:to-stone-700"
+    role="dialog"
+    aria-modal="true"
+    aria-hidden="true"
+    aria-labelledby="player-expanded-title"
+    aria-describedby="player-expanded-description"
+    tabindex="-1">
+    <p id="player-expanded-description" class="sr-only">Player espanso con maggiori controlli e informazioni sul brano in riproduzione</p>
+    <div class="flex flex-col w-full items-center justify-center mt-10">
+      <a href="#" data-player-target="titleLink" class="relative origin-left hover:scale-105">
+        <img data-player-target="trackCover" class="block h-[200px]" src="">
+        <img data-player-target="showVendorLogo" class="absolute left-3 top-3 w-[48px] h-auto" src="">
+      </a>
+      <div class="flex flex-row-reverse text-[13px] mt-1 mb-1">
+        <a href="#" class="peer font-semibold hover:scale-105" data-player-target="playlistName playlistLink"></a>
+        <span class="peer-empty:hidden pr-1">From the playlist</span>
+      </div>
+      <div class="flex items-center w-[calc(100%+15px)] ml-[15px]">
+        <div class="flex flex-col">
+          <a href="#" data-player-target="title titleLink"  class="origin-left text-xl sm:text-2xl hover:scale-105 text-gray-900 dark:text-gray-100 font-bold flex-grow pr-1 sm:pr-3 mb-1 sm:mb-2" id="player-expanded-title"></a>
+        </div>
+        <button
+          type="button"
+          data-player-target="previousButton"
+          data-action="player#previous"
+          aria-label="Traccia precedente"
+          class="hover:scale-110 duration-500 transition w-[44px] h-[44px] flex items-center justify-center">
+          <div class="flex">
+            <span class="text-3xl hover:text-black dark:hover:text-white material-symbols-outlined" aria-hidden="true">skip_previous</span>
+          </div>
+        </button>
+        <button
+          type="button"
+          data-player-target="nextButton"
+          data-action="player#next"
+          aria-label="Traccia successiva"
+          class="hover:scale-110  duration-500 transition w-[44px] h-[44px] flex items-center justify-center">
+          <div class="flex">
+            <span class="text-3xl hover:text-black dark:hover:text-white material-symbols-outlined" aria-hidden="true">skip_next</span>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="flex items-center mt-1 mb-3">
+      <a href="" class="flex items-center hover:scale-105 flex-grow origin-left block" class="artistLink" data-player-target="artistLink">
+        <img data-player-target="artistImage" class="z-20 hover:z-40 w-10 h-10 rounded-full mr-3" src="">
+        <span data-player-target="artist" class="text-title-md text-gray-900 dark:text-gray-100 flex-grow"></span>
+      </a>
+      <span class="peer" data-player-target="playlistIndex"></span><span class="peer-empty:hidden">/</span><span data-player-target="playlistLength"></span>
+    </div>
+    <div class="flex items-center gap-3">
+      <span data-player-target="currentTime"></span>
+      <div class="progress w-full pb-3 pt-3 relative cursor-pointer" data-player-target="progressFull" data-action="click->player#seeked">
+        <div class="flex bg-white dark:bg-gray-700 h-1 w-full bg-opacity-50">
+          <div data-player-target="progress" class="flex bg-primary-600 dark:bg-primary-200 bg-opacity-100" role="progressbar" aria-label="Avanzamento della riproduzione" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-valuetext="0:00 of 0:00"></div>
+        </div>
+      </div>
+      <span data-player-target="duration"></span>
+    </div>
+    <button
+      type="button"
+      data-player-target="expandClose"
+      data-action="player#toggleExpand"
+      aria-label="Riduci il player"
+      class="absolute right-6 top-3 hover:scale-110">
+      <span class="material-symbols-outlined ml-auto icon-active" aria-hidden="true">close</span>
+    </button>
+  </div>
+</div>
+
+    <!-- Mobile search -->
+<div data-controller="dialog" data-dialog-show-class="show" data-dialog-target-id-value="#dialog_search" id="dialog_search"
+  data-dialog-opened-text="aperto"
+  data-dialog-closed-message="Dialogo chiuso"
+  role="dialog" aria-modal="true" aria-labelledby="search-dialog-title" class="[&.show]:opacity-100 [&.show]:h-full [&.show]:inset-0 [&.show_.dialog]:!block opacity-0 w-full h-0 z-[70] overflow-auto fixed left-0 top-0 flex items-center justify-center">
+  <!-- dialogs -->
+  <div class="dialog hidden fixed inset-0 z-50 flex-col gap-2 bg-neutral-10 dark:bg-neutral-900" role="dialog" aria-modal="true" aria-labelledby="dialog_search_title" aria-describedby="dialog_search_help" tabindex="-1">
+    <!-- header -->
+    <div class="min-h-[56px] flex flex-row items-center justify-between gap-4 pl-4 pr-2 pt-4 pb-2">
+      <h3 id="search-dialog-title" class="flex flex-grow text-title-md">Lanciare la ricerca</h3>
+
+      <button type="button" data-action="dialog#close" class="relative flex flex-row items-center justify-center gap-x-2 p-2 rounded-[6.25rem] text-sm tracking-[.00714em] font-medium text-primary-600 dark:bg-surfacedark-100 hover:bg-surface-200 focus:bg-surface-400 dark:text-primary-200 dark:hover:bg-surfacedark-200 dark:focus:bg-surfacedark-400" aria-label="Chiudi">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+    </div>
+    <hr class="w-full border-surface-100 dark:border-surfacedark-100">
+    <div class="relative p-4">
+      <div class="relative">
+        <form action="/home/search" role="search" aria-labelledby="dialog_search_title">
+          <label for="dialog-search-input" class="sr-only">Cerca nel sito</label>
+          <button type="submit" class="absolute left-1 top-1 inline-flex !items-center justify-center w-10 h-10 gap-x-2 p-2.5 rounded-[6.25rem] text-sm tracking-[.00714em] text-center font-medium hover:bg-primary-600/[0.08] focus:bg-primary-600/[0.08] dark:hover:bg-primary-200/[0.08] dark:focus:bg-primary-200/[0.08]" aria-label="Invia ricerca">
+            <span class="material-symbols-outlined !text-2xl">search</span>
+          </button>
+          <input id="dialog-search-input" name="q" type="search" placeholder="Cerca parole chiave..." class="block w-full px-14 h-12 rounded-full bg-surface-200 dark:bg-surfacedark-200 focus:bg-white dark:focus:bg-gray-900 py-2 ring-0 focus:outline-none focus:shadow">
+        </form>
+      </div>
+    </div>
+    <!-- body -->
+    <div class="relative px-4 h-screen overflow-y-scroll scrollbars">
+      <p class="mt-1" id="dialog_search_help">
+        <a class="text-primary-600 dark:text-primary-400 hover:underline" href="/home/advanced_search">Ricerca avanzata</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+      <aside data-controller="dialog" data-dialog-show-class="show" data-dialog-target-id-value="#profile-bio-full"
+  data-dialog-opened-text="aperto"
+  data-dialog-closed-message="Dialogo chiuso">
+  <div id="profile-bio-full" role="dialog" aria-modal="true" aria-labelledby="profile-bio-full-title" class="[&.show_.bgDialog]:opacity-60 [&.show_.bgDialog]:inset-0 [&.show_.dialog]:translate-x-0">
+    <!-- background sheets dialogs -->
+    <div data-action="click->dialog#close" class="bgDialog fixed z-[101] opacity-0 -top-full bg-neutral-900"></div>
+    <!-- side sheets dialogs -->
+    <div class="dialog fixed top-0 bottom-0 right-0 rounded-l-2xl w-2/3 sm:w-[420px] z-[102] bg-surface-100 dark:bg-surfacedark-100 transition-transform translate-x-full duration-[400ms] flex flex-col gap-2">
+      <!-- header -->
+      <div class="min-h-[56px] flex flex-row items-center gap-3 px-6 pt-6">
+        <h3 id="profile-bio-full-title" class="flex flex-grow text-base tracking-[.009375em]">Biografia</h3>
+        <button type="button" data-action="dialog#close" class="flex items-center justify-center" aria-label="Chiudi">
+          <span class="material-symbols-outlined" aria-hidden="true">close</span>
+        </button>
+      </div>
+      <!-- body -->
+      <div class="relative text-left px-6 py-2 overflow-y-scroll scrollbars">
+        
+    <p>The band follows the path of bands such as GN’R, L.A. Guns, Mötley Crüe, and Kix, unleashing the raw and pure energy within all of us! Both the band’s stage presence and its upcoming and highly anticipated EP “Ain’t Going Down No More” embody the electrifying and irresistible essence of rock ’n’ roll.</p>
+
+<p>Von Zippen’s lineup:
+<br />Amos “Faze” Malorgio - vocals &amp; piano
+<br />Samuele “Hedgehog” Cambianica - guitar
+<br />Stefano “Staf” Martini - bass
+<br />Rocco Vitale - drums</p>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+    <aside data-controller="dialog" data-dialog-show-class="show" data-dialog-target-id-value="#profile-comments"
+  data-dialog-opened-text="aperto"
+  data-dialog-closed-message="Dialogo chiuso">
+  <div id="profile-comments" role="dialog" aria-modal="true" aria-labelledby="profile-comments-title" class="[&.show_.bgDialog]:opacity-60 [&.show_.bgDialog]:inset-0 [&.show_.dialog]:translate-x-0">
+    <!-- background sheets dialogs -->
+    <div data-action="click->dialog#close" class="bgDialog fixed z-[101] opacity-0 -top-full bg-neutral-900"></div>
+    <!-- side sheets dialogs -->
+    <div class="dialog fixed top-0 bottom-0 right-0 rounded-l-2xl w-2/3 sm:w-[420px] z-[102] bg-surface-100 dark:bg-surfacedark-100 transition-transform translate-x-full duration-[400ms] flex flex-col gap-2">
+      <!-- header -->
+      <div class="min-h-[56px] flex flex-row items-center gap-3 px-6 pt-6">
+        <h3 id="profile-comments-title" class="flex flex-grow text-base tracking-[.009375em]">Commenti</h3>
+        <button type="button" data-action="dialog#close" class="flex items-center justify-center" aria-label="Chiudi">
+          <span class="material-symbols-outlined" aria-hidden="true">close</span>
+        </button>
+      </div>
+      <!-- body -->
+      <div class="relative text-left px-6 py-2 overflow-y-scroll scrollbars">
+        
+      <turbo-frame id="band_102688-comments" src="/vonzippen/comments" loading="lazy">
+      </turbo-frame>
+
+      </div>
+    </div>
+  </div>
+</aside>
+
+
+  <div data-controller="dialog" data-dialog-show-class="show" data-dialog-target-id-value="#add-to-playlist-dialog" id="add-to-playlist-dialog"
+  data-dialog-opened-text="aperto"
+  data-dialog-closed-message="Dialogo chiuso"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="add-to-playlist-dialog-title"
+  class="[&.show_.bgDialog]:opacity-60 [&.show]:opacity-100 [&.show]:h-full [&.show_.bgDialog]:block [&.show_.bgDialog]:inset-0 [&.show]:inset-0 duration-[400ms] ease-[cubic-bezier(0, 0, 0, 1)] opacity-0 w-full h-0 z-[9999] overflow-auto fixed left-0 top-0 flex items-center justify-center">
+  <div data-action="click->dialog#close" class="bgDialog fixed z-[60] opacity-0 -top-full bg-neutral-900"></div>
+  <div class="z-[150] flex flex-col w-4/5 sm:w-11/12 sm:w-[480px] h-4/5 overflow-auto bg-surface-300 dark:bg-surfacedark-300 rounded-[28px]">
+    <div class="min-h-[56px] flex flex-row items-center gap-3 px-6 pt-6">
+      <h3 id="add-to-playlist-dialog-title" class="flex flex-grow text-base tracking-[.009375em]">Aggiungere ad una playlist</h3>
+      <button type="button" data-action="dialog#close" class="flex items-center justify-center" aria-label="Chiudi">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+    </div>
+    <div class="relative text-left px-6 py-6">
+      
+    <turbo-frame id="add-to-playlist" data-url-template="/admin/playlists/add_track_popup?track_id=__ITEM_ID__" src="">
+    </turbo-frame>
+
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
