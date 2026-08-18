@@ -9,13 +9,12 @@ const CONFIG = {
   LAST_SYNC_PROPERTY: 'LAST_SYNC',
   LAST_ERROR_PROPERTY: 'LAST_SYNC_ERROR',
   WORKER_FUNCTION: 'backgroundSyncWorker',
-  BATCH_SIZE: 3
+  BATCH_SIZE: 1
 };
 
 function doGet(e) {
   var autoSync = e && e.parameter && e.parameter.sync === '1';
   var autoSyncMessage = '';
-
   if (autoSync) {
     try {
       var result = startBackgroundSync();
@@ -26,21 +25,16 @@ function doGet(e) {
       autoSyncMessage = 'Error: ' + err.message;
     }
   }
-
   var template = HtmlService.createTemplateFromFile('Index');
   template.autoSyncMessage = autoSyncMessage;
-
   return template.evaluate()
     .setTitle('Von Zippen — On Stage Sync')
     .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
 }
 
 function setGithubToken(token) {
-  if (!token || !token.trim()) {
-    throw new Error('GitHub token is empty.');
-  }
-  PropertiesService.getScriptProperties()
-    .setProperty(CONFIG.GITHUB_TOKEN_PROPERTY, token.trim());
+  if (!token || !token.trim()) throw new Error('GitHub token is empty.');
+  PropertiesService.getScriptProperties().setProperty(CONFIG.GITHUB_TOKEN_PROPERTY, token.trim());
   return 'GitHub token saved.';
 }
 
@@ -49,7 +43,6 @@ function getStatus() {
   var raw = props.getProperty(CONFIG.SYNC_STATE_PROPERTY);
   var lastRaw = props.getProperty(CONFIG.LAST_SYNC_PROPERTY);
   var error = props.getProperty(CONFIG.LAST_ERROR_PROPERTY);
-
   var status = {
     driveConfigured: !!CONFIG.DRIVE_FOLDER_ID,
     githubConfigured: !!props.getProperty(CONFIG.GITHUB_TOKEN_PROPERTY),
@@ -58,7 +51,6 @@ function getStatus() {
     lastSync: lastRaw ? JSON.parse(lastRaw) : null,
     lastError: error || ''
   };
-
   if (raw) {
     var state = JSON.parse(raw);
     status.progress = {
@@ -71,7 +63,6 @@ function getStatus() {
       background: true
     };
   }
-
   return status;
 }
 
@@ -82,62 +73,35 @@ function startSync() {
 function startBackgroundSync() {
   var props = PropertiesService.getScriptProperties();
   var raw = props.getProperty(CONFIG.SYNC_STATE_PROPERTY);
-
   if (raw) {
     var running = JSON.parse(raw);
-    return {
-      alreadyRunning: true,
-      total: running.items.length
-    };
+    return { alreadyRunning: true, total: running.items.length };
   }
-
   props.deleteProperty(CONFIG.LAST_ERROR_PROPERTY);
   var initialized = initializeSync();
-
-  // Process the first batch immediately so the sync cannot sit at 0/N
-  // waiting for the first background trigger. Later batches run in triggers.
   processBatch();
-
-  return {
-    alreadyRunning: false,
-    total: initialized.total
-  };
+  return { alreadyRunning: false, total: initialized.total };
 }
 
 function initializeSync() {
-  var token = PropertiesService.getScriptProperties()
-    .getProperty(CONFIG.GITHUB_TOKEN_PROPERTY);
-
-  if (!token) {
-    throw new Error('GitHub token is not configured.');
-  }
-
+  var token = PropertiesService.getScriptProperties().getProperty(CONFIG.GITHUB_TOKEN_PROPERTY);
+  if (!token) throw new Error('GitHub token is not configured.');
   var folder = DriveApp.getFolderById(CONFIG.DRIVE_FOLDER_ID);
   var items = [];
   var files = folder.getFiles();
-
   while (files.hasNext()) {
     var file = files.next();
     if (/^image\/(jpeg|png|webp|gif)$/i.test(file.getMimeType())) {
-      items.push({
-        id: file.getId(),
-        name: cleanName(file.getName())
-      });
+      items.push({ id: file.getId(), name: cleanName(file.getName()) });
     }
   }
-
   items.sort(function(a, b) {
-    return a.name.localeCompare(b.name, undefined, {
-      numeric: true,
-      sensitivity: 'base'
-    });
+    return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' });
   });
-
   var githubByName = {};
   listGithubFiles(token).forEach(function(file) {
     githubByName[file.name] = { sha: file.sha };
   });
-
   saveState({
     index: 0,
     items: items,
@@ -151,20 +115,15 @@ function initializeSync() {
     removed: 0,
     startedAt: new Date().toISOString()
   });
-
   return { total: items.length };
 }
 
 function backgroundSyncWorker() {
   var lock = LockService.getScriptLock();
   if (!lock.tryLock(5000)) return;
-
   try {
-    var raw = PropertiesService.getScriptProperties()
-      .getProperty(CONFIG.SYNC_STATE_PROPERTY);
-
+    var raw = PropertiesService.getScriptProperties().getProperty(CONFIG.SYNC_STATE_PROPERTY);
     if (!raw) return;
-
     processBatch();
   } catch (err) {
     recordSyncError(err);
@@ -175,18 +134,13 @@ function backgroundSyncWorker() {
 }
 
 function processBatch() {
-  var token = PropertiesService.getScriptProperties()
-    .getProperty(CONFIG.GITHUB_TOKEN_PROPERTY);
-  var raw = PropertiesService.getScriptProperties()
-    .getProperty(CONFIG.SYNC_STATE_PROPERTY);
-
+  var token = PropertiesService.getScriptProperties().getProperty(CONFIG.GITHUB_TOKEN_PROPERTY);
+  var raw = PropertiesService.getScriptProperties().getProperty(CONFIG.SYNC_STATE_PROPERTY);
   if (!token) throw new Error('GitHub token is not configured.');
   if (!raw) return { done: true };
-
   var state = JSON.parse(raw);
 
-  for (var count = 0; count < CONFIG.BATCH_SIZE; count++) {
-    if (state.index >= state.items.length) break;
+  if (state.index < state.items.length) {
     processOnePhoto(state, token);
   }
 
@@ -195,10 +149,7 @@ function processBatch() {
       state.remainingDeletes = Object.keys(state.githubByName);
       state.deleteIndex = 0;
     }
-
-    for (var d = 0; d < CONFIG.BATCH_SIZE; d++) {
-      if (state.deleteIndex >= state.remainingDeletes.length) break;
-
+    if (state.deleteIndex < state.remainingDeletes.length) {
       var name = state.remainingDeletes[state.deleteIndex];
       var entry = state.githubByName[name];
       deleteGithubFile(token, name, entry.sha);
@@ -209,8 +160,7 @@ function processBatch() {
 
   saveState(state);
 
-  var finished =
-    state.index >= state.items.length &&
+  var finished = state.index >= state.items.length &&
     state.remainingDeletes !== null &&
     state.deleteIndex >= state.remainingDeletes.length;
 
@@ -228,36 +178,24 @@ function processOnePhoto(state, token) {
   var existing = state.githubByName[item.name] || null;
   var blob = DriveApp.getFileById(item.id).getBlob();
   var driveSha = gitBlobSha1(blob.getBytes());
-
   if (existing && existing.sha === driveSha) {
     state.skipped++;
   } else {
-    putGithubFile(
-      token,
-      item.name,
-      blob,
-      existing ? existing.sha : null,
-      existing ? 'Update On Stage photo' : 'Add On Stage photo'
-    );
-
+    putGithubFile(token, item.name, blob, existing ? existing.sha : null,
+      existing ? 'Update On Stage photo' : 'Add On Stage photo');
     if (existing) state.updated++;
     else state.added++;
   }
-
   state.manifest.push(item.name);
   delete state.githubByName[item.name];
   state.index++;
 }
 
 function finalizeSync(state, token) {
-  putGithubText(
-    token,
-    'images/on-stage.json',
+  putGithubText(token, 'images/on-stage.json',
     JSON.stringify({ images: state.manifest }, null, 2) + '\n',
     getGithubFileSha(token, 'images/on-stage.json'),
-    'Update On Stage image manifest'
-  );
-
+    'Update On Stage image manifest');
   var result = {
     total: state.items.length,
     added: state.added,
@@ -266,7 +204,6 @@ function finalizeSync(state, token) {
     removed: state.removed,
     completedAt: new Date().toISOString()
   };
-
   var props = PropertiesService.getScriptProperties();
   props.setProperty(CONFIG.LAST_SYNC_PROPERTY, JSON.stringify(result));
   props.deleteProperty(CONFIG.SYNC_STATE_PROPERTY);
@@ -291,20 +228,14 @@ function ensureWorkerTrigger() {
   var exists = triggers.some(function(trigger) {
     return trigger.getHandlerFunction() === CONFIG.WORKER_FUNCTION;
   });
-
   if (!exists) {
-    ScriptApp.newTrigger(CONFIG.WORKER_FUNCTION)
-      .timeBased()
-      .after(5000)
-      .create();
+    ScriptApp.newTrigger(CONFIG.WORKER_FUNCTION).timeBased().after(5000).create();
   }
 }
 
 function removeWorkerTriggers() {
   ScriptApp.getProjectTriggers().forEach(function(trigger) {
-    if (trigger.getHandlerFunction() === CONFIG.WORKER_FUNCTION) {
-      ScriptApp.deleteTrigger(trigger);
-    }
+    if (trigger.getHandlerFunction() === CONFIG.WORKER_FUNCTION) ScriptApp.deleteTrigger(trigger);
   });
 }
 
@@ -316,13 +247,14 @@ function recordSyncError(err) {
 }
 
 function saveState(state) {
-  PropertiesService.getScriptProperties()
-    .setProperty(CONFIG.SYNC_STATE_PROPERTY, JSON.stringify(state));
+  PropertiesService.getScriptProperties().setProperty(
+    CONFIG.SYNC_STATE_PROPERTY,
+    JSON.stringify(state)
+  );
 }
 
 function cancelSync() {
-  PropertiesService.getScriptProperties()
-    .deleteProperty(CONFIG.SYNC_STATE_PROPERTY);
+  PropertiesService.getScriptProperties().deleteProperty(CONFIG.SYNC_STATE_PROPERTY);
   removeWorkerTriggers();
   return 'Sync cancelled.';
 }
@@ -332,42 +264,34 @@ function cleanName(name) {
 }
 
 function githubUrl(path) {
-  return 'https://api.github.com/repos/' +
-    CONFIG.GITHUB_OWNER + '/' + CONFIG.GITHUB_REPO + '/contents/' +
-    path.split('/').map(encodeURIComponent).join('/') +
+  return 'https://api.github.com/repos/' + CONFIG.GITHUB_OWNER + '/' + CONFIG.GITHUB_REPO +
+    '/contents/' + path.split('/').map(encodeURIComponent).join('/') +
     '?ref=' + encodeURIComponent(CONFIG.GITHUB_BRANCH);
 }
 
 function githubRequest(url, token, options) {
   var base = {
-    method: 'get',
-    muteHttpExceptions: true,
+    method: 'get', muteHttpExceptions: true,
     headers: {
       Authorization: 'Bearer ' + token,
       Accept: 'application/vnd.github+json',
       'X-GitHub-Api-Version': '2022-11-28'
     }
   };
-
   Object.assign(base, options || {});
-
   var response = UrlFetchApp.fetch(url, base);
   var code = response.getResponseCode();
   var text = response.getContentText();
-
   if (code < 200 || code >= 300) {
     throw new Error('GitHub API ' + code + ': ' + text.slice(0, 500));
   }
-
   return text ? JSON.parse(text) : {};
 }
 
 function listGithubFiles(token) {
   try {
     var data = githubRequest(githubUrl(CONFIG.GITHUB_DIR), token);
-    return Array.isArray(data)
-      ? data.filter(function(x) { return x.type === 'file'; })
-      : [];
+    return Array.isArray(data) ? data.filter(function(x) { return x.type === 'file'; }) : [];
   } catch (e) {
     if (String(e).indexOf('404') >= 0) return [];
     throw e;
@@ -384,75 +308,51 @@ function getGithubFileSha(token, path) {
 }
 
 function putGithubFile(token, name, blob, sha, message) {
-  var path = CONFIG.GITHUB_DIR + '/' +
-    encodeURIComponent(name).replace(/%2F/g, '/');
-
-  var url = 'https://api.github.com/repos/' +
-    CONFIG.GITHUB_OWNER + '/' + CONFIG.GITHUB_REPO +
+  var path = CONFIG.GITHUB_DIR + '/' + encodeURIComponent(name).replace(/%2F/g, '/');
+  var url = 'https://api.github.com/repos/' + CONFIG.GITHUB_OWNER + '/' + CONFIG.GITHUB_REPO +
     '/contents/' + path + '?ref=' + encodeURIComponent(CONFIG.GITHUB_BRANCH);
-
   var payload = {
     message: message,
     content: Utilities.base64Encode(blob.getBytes()),
     branch: CONFIG.GITHUB_BRANCH
   };
-
   if (sha) payload.sha = sha;
-
   githubRequest(url, token, {
-    method: 'put',
-    contentType: 'application/json',
-    payload: JSON.stringify(payload)
+    method: 'put', contentType: 'application/json', payload: JSON.stringify(payload)
   });
 }
 
 function putGithubText(token, path, text, sha, message) {
-  var url = 'https://api.github.com/repos/' +
-    CONFIG.GITHUB_OWNER + '/' + CONFIG.GITHUB_REPO +
+  var url = 'https://api.github.com/repos/' + CONFIG.GITHUB_OWNER + '/' + CONFIG.GITHUB_REPO +
     '/contents/' + path + '?ref=' + encodeURIComponent(CONFIG.GITHUB_BRANCH);
-
   var payload = {
     message: message,
     content: Utilities.base64Encode(text, Utilities.Charset.UTF_8),
     branch: CONFIG.GITHUB_BRANCH
   };
-
   if (sha) payload.sha = sha;
-
   githubRequest(url, token, {
-    method: 'put',
-    contentType: 'application/json',
-    payload: JSON.stringify(payload)
+    method: 'put', contentType: 'application/json', payload: JSON.stringify(payload)
   });
 }
 
 function deleteGithubFile(token, name, sha) {
-  var path = CONFIG.GITHUB_DIR + '/' +
-    encodeURIComponent(name).replace(/%2F/g, '/');
-
-  var url = 'https://api.github.com/repos/' +
-    CONFIG.GITHUB_OWNER + '/' + CONFIG.GITHUB_REPO +
+  var path = CONFIG.GITHUB_DIR + '/' + encodeURIComponent(name).replace(/%2F/g, '/');
+  var url = 'https://api.github.com/repos/' + CONFIG.GITHUB_OWNER + '/' + CONFIG.GITHUB_REPO +
     '/contents/' + path + '?ref=' + encodeURIComponent(CONFIG.GITHUB_BRANCH);
-
   githubRequest(url, token, {
-    method: 'delete',
-    contentType: 'application/json',
+    method: 'delete', contentType: 'application/json',
     payload: JSON.stringify({
-      message: 'Remove deleted On Stage photo',
-      sha: sha,
-      branch: CONFIG.GITHUB_BRANCH
+      message: 'Remove deleted On Stage photo', sha: sha, branch: CONFIG.GITHUB_BRANCH
     })
   });
 }
 
 function gitBlobSha1(bytes) {
   var header = Utilities.newBlob('blob ' + bytes.length + '\0').getBytes();
-  return bytesToHex(
-    Utilities.computeDigest(
-      Utilities.DigestAlgorithm.SHA_1,
-      header.concat(bytes)
-    )
-  );
+  return bytesToHex(Utilities.computeDigest(
+    Utilities.DigestAlgorithm.SHA_1, header.concat(bytes)
+  ));
 }
 
 function bytesToHex(bytes) {
