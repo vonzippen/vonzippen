@@ -18,7 +18,7 @@
   <div class="status" id="status">Checking setup…</div>
 
   <details>
-    <summary>First-time setup</summary>
+    <summary>One-time setup</summary>
     <p class="small">The Google Drive folder is already configured. You only need to enter the GitHub token once. It is stored in this Apps Script project, not on the website.</p>
     <label>GitHub token</label>
     <input id="token" type="password" placeholder="github_pat_...">
@@ -30,6 +30,8 @@
   <div id="result"></div>
 
   <script>
+    const AUTO_MESSAGE = <?!= JSON.stringify(autoSyncMessage || '') ?>;
+
     function refresh(){
       google.script.run
         .withSuccessHandler(function(s){
@@ -68,9 +70,7 @@
             'Sync started — found ' + startResult.total + ' photos.';
           runChunk();
         })
-        .withFailureHandler(function(e){
-          finishWithError(e);
-        })
+        .withFailureHandler(function(e){ finishWithError(e); })
         .startSync();
     }
 
@@ -95,18 +95,16 @@
           document.getElementById('result').innerHTML =
             '<div class="result">' +
             'Syncing…<br>' +
-            '📤 Uploaded: ' + r.uploaded + ' / ' + r.uploadTotal + '<br>' +
+            '📤 Processed: ' + r.processed + ' / ' + r.total + '<br>' +
             '🟢 Added: ' + r.added + '<br>' +
             '🔄 Updated: ' + r.updated + '<br>' +
+            '⏭ Skipped: ' + r.skipped + '<br>' +
             '🔴 Removed: ' + r.removed +
             '</div>';
 
-          // Give Apps Script a moment before starting the next independent execution.
           setTimeout(runChunk, 500);
         })
-        .withFailureHandler(function(e){
-          finishWithError(e);
-        })
+        .withFailureHandler(function(e){ finishWithError(e); })
         .syncNextChunk();
     }
 
@@ -118,6 +116,11 @@
     }
 
     refresh();
+
+    if (AUTO_MESSAGE) {
+      document.getElementById('result').innerHTML =
+        '<div class="result">' + AUTO_MESSAGE + '<br><br>You can close this page. The synchronization will continue on Google servers.</div>';
+    }
   </script>
 </body>
 </html>
