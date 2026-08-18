@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head><base target="_top"><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{font-family:Arial,sans-serif;background:#000;color:#fff;max-width:620px;margin:0 auto;padding:32px}h1{font-weight:400;letter-spacing:.06em}button{background:#fff;color:#000;border:0;padding:14px 22px;border-radius:4px;font-size:16px;cursor:pointer}button:disabled{opacity:.5}input{width:100%;box-sizing:border-box;padding:10px;margin:6px 0 14px;background:#111;border:1px solid #555;color:#fff;border-radius:3px}label{font-size:13px}.status{margin:20px 0;line-height:1.6}.result{margin-top:20px;padding:14px;background:#111}.small{font-size:12px;opacity:.7;line-height:1.5}</style></head>
+<body>
+<h1>VON ZIPPEN — ON STAGE</h1>
+<p>Manage the photos shown in the On Stage slideshow.</p>
+<div class="status" id="status">Checking setup…</div>
+<details><summary>First-time setup</summary>
+<p class="small">You only need this once. The Drive folder ID is the long ID from the folder URL. The GitHub token is stored in this Apps Script project, not in the website.</p>
+<label>Google Drive folder ID</label><input id="folder" placeholder="e.g. 1AbC...">
+<label>GitHub token</label><input id="token" type="password" placeholder="github_pat_...">
+<button onclick="save()">SAVE SETUP</button>
+</details>
+<hr style="margin:28px 0;border-color:#222">
+<button id="sync" onclick="sync()">↻ SYNC NOW</button>
+<div id="result"></div>
+<script>
+function refresh(){google.script.run.withSuccessHandler(s=>{document.getElementById('status').textContent=(s.driveConfigured&&s.githubConfigured)?'✓ Ready to sync.':'Setup incomplete — open “First-time setup” below.'}).getStatus()}
+function save(){const f=document.getElementById('folder').value,t=document.getElementById('token').value;if(!f||!t)return alert('Please enter both values.');google.script.run.withSuccessHandler(()=>{document.getElementById('result').textContent='Setup saved.';refresh()}).withFailureHandler(e=>alert(e.message)).setSetupProperties(f,t)}
+function sync(){const b=document.getElementById('sync');b.disabled=true;b.textContent='SYNCING…';document.getElementById('result').textContent='Reading Drive and updating GitHub…';google.script.run.withSuccessHandler(r=>{b.disabled=false;b.textContent='↻ SYNC NOW';document.getElementById('result').innerHTML='<div class="result">✓ Sync complete<br>🟢 Added: '+r.added+'<br>🔄 Updated: '+r.updated+'<br>🔴 Removed: '+r.removed+'<br>📸 Total: '+r.total+'</div>'}).withFailureHandler(e=>{b.disabled=false;b.textContent='↻ SYNC NOW';document.getElementById('result').textContent='Error: '+e.message}) .syncOnStage()}
+refresh();
+</script></body></html>
