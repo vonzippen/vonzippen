@@ -5,122 +5,40 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
     body{font-family:Arial,sans-serif;background:#000;color:#fff;max-width:620px;margin:0 auto;padding:32px}
-    h1{font-weight:400;letter-spacing:.06em}
-    button{background:#fff;color:#000;border:0;padding:14px 22px;border-radius:4px;font-size:16px;cursor:pointer}
-    button:disabled{opacity:.5;cursor:wait}
-    input{width:100%;box-sizing:border-box;padding:10px;margin:6px 0 14px;background:#111;border:1px solid #555;color:#fff;border-radius:3px}
-    label{font-size:13px}.status{margin:20px 0;line-height:1.6}.result{margin-top:20px;padding:14px;background:#111}.small{font-size:12px;opacity:.7;line-height:1.5}
+    h1{font-weight:400;letter-spacing:.06em}button{background:#fff;color:#000;border:0;padding:14px 22px;border-radius:4px;font-size:16px;cursor:pointer}button:disabled{opacity:.5;cursor:wait}
+    input{width:100%;box-sizing:border-box;padding:10px;margin:6px 0 14px;background:#111;border:1px solid #555;color:#fff;border-radius:3px}label{font-size:13px}.status{margin:20px 0;line-height:1.6}.result{margin-top:20px;padding:14px;background:#111;line-height:1.7}.small{font-size:12px;opacity:.7;line-height:1.5}.bar{height:8px;background:#333;margin:12px 0}.fill{height:100%;background:#fff;width:0}.muted{opacity:.65;font-size:13px}
   </style>
 </head>
 <body>
   <h1>VON ZIPPEN — ON STAGE</h1>
   <p>Manage the photos shown in the On Stage slideshow.</p>
   <div class="status" id="status">Checking setup…</div>
-
-  <details>
-    <summary>One-time setup</summary>
-    <p class="small">The Google Drive folder is already configured. You only need to enter the GitHub token once. It is stored in this Apps Script project, not on the website.</p>
-    <label>GitHub token</label>
-    <input id="token" type="password" placeholder="github_pat_...">
-    <button onclick="save()">SAVE SETUP</button>
-  </details>
-
+  <div id="last"></div>
+  <details><summary>One-time setup</summary><p class="small">The Google Drive folder is already configured. You only need to enter the GitHub token once. It is stored in this Apps Script project, not on the website.</p><label>GitHub token</label><input id="token" type="password" placeholder="github_pat_..."><button onclick="save()">SAVE SETUP</button></details>
   <hr style="margin:28px 0;border-color:#222">
   <button id="sync" onclick="sync()">↻ SYNC NOW</button>
   <div id="result"></div>
-
   <script>
-    const AUTO_MESSAGE = <?!= JSON.stringify(autoSyncMessage || '') ?>;
-
-    function refresh(){
-      google.script.run
-        .withSuccessHandler(function(s){
-          document.getElementById('status').textContent = s.githubConfigured
-            ? '✓ Ready to sync.'
-            : 'Setup incomplete — enter the GitHub token above.';
-        })
-        .withFailureHandler(function(e){
-          document.getElementById('status').textContent = 'Error: ' + e.message;
-        })
-        .getStatus();
+    const AUTO_MESSAGE=<?!=JSON.stringify(autoSyncMessage||'')?>;
+    let polling=false;
+    function fmt(iso){if(!iso)return'—';return new Date(iso).toLocaleString('it-CH',{dateStyle:'medium',timeStyle:'short'});}
+    function render(s){
+      document.getElementById('status').textContent=s.githubConfigured?'✓ Ready to sync.':'Setup incomplete — enter the GitHub token above.';
+      const l=document.getElementById('last');
+      l.innerHTML=s.lastSync?'<div class="muted">Last sync: '+fmt(s.lastSync.completedAt)+'</div>':'';
+      if(s.syncing&&s.progress){
+        const p=s.progress, pct=p.total?Math.round(p.processed/p.total*100):100;
+        document.getElementById('sync').disabled=true;document.getElementById('sync').textContent='SYNCING…';
+        document.getElementById('result').innerHTML='<div class="result"><b>🔄 Sync in progress</b><div class="bar"><div class="fill" style="width:'+pct+'%"></div></div>'+p.processed+' / '+p.total+' photos ('+pct+'%)<br>🟢 Added: '+p.added+'<br>🔄 Updated: '+p.updated+'<br>⏭ Skipped: '+p.skipped+'<br>🔴 Removed: '+p.removed+'<br><span class="muted">You can close this page at any time. The synchronization will continue on Google servers.</span></div>';
+        polling=true;setTimeout(poll,1000);
+      }else if(!polling){document.getElementById('sync').disabled=false;document.getElementById('sync').textContent='↻ SYNC NOW';}
     }
-
-    function save(){
-      const token = document.getElementById('token').value;
-      if(!token) return alert('Please enter the GitHub token.');
-      google.script.run
-        .withSuccessHandler(function(){
-          document.getElementById('result').textContent = 'Setup saved.';
-          document.getElementById('token').value = '';
-          refresh();
-        })
-        .withFailureHandler(function(e){ alert(e.message); })
-        .setGithubToken(token);
-    }
-
-    function sync(){
-      const button = document.getElementById('sync');
-      button.disabled = true;
-      button.textContent = 'SYNCING…';
-      document.getElementById('result').textContent = 'Starting sync…';
-
-      google.script.run
-        .withSuccessHandler(function(startResult){
-          document.getElementById('result').textContent =
-            'Sync started — found ' + startResult.total + ' photos.';
-          runChunk();
-        })
-        .withFailureHandler(function(e){ finishWithError(e); })
-        .startSync();
-    }
-
-    function runChunk(){
-      google.script.run
-        .withSuccessHandler(function(r){
-          if(r.done){
-            document.getElementById('sync').disabled = false;
-            document.getElementById('sync').textContent = '↻ SYNC NOW';
-            document.getElementById('result').innerHTML =
-              '<div class="result">' +
-              '✓ Sync complete<br>' +
-              '🟢 Added: ' + r.added + '<br>' +
-              '🔄 Updated: ' + r.updated + '<br>' +
-              '⏭ Skipped: ' + r.skipped + '<br>' +
-              '🔴 Removed: ' + r.removed + '<br>' +
-              '📸 Total: ' + r.total +
-              '</div>';
-            return;
-          }
-
-          document.getElementById('result').innerHTML =
-            '<div class="result">' +
-            'Syncing…<br>' +
-            '📤 Processed: ' + r.processed + ' / ' + r.total + '<br>' +
-            '🟢 Added: ' + r.added + '<br>' +
-            '🔄 Updated: ' + r.updated + '<br>' +
-            '⏭ Skipped: ' + r.skipped + '<br>' +
-            '🔴 Removed: ' + r.removed +
-            '</div>';
-
-          setTimeout(runChunk, 500);
-        })
-        .withFailureHandler(function(e){ finishWithError(e); })
-        .syncNextChunk();
-    }
-
-    function finishWithError(e){
-      const button = document.getElementById('sync');
-      button.disabled = false;
-      button.textContent = '↻ SYNC NOW';
-      document.getElementById('result').textContent = 'Error: ' + e.message;
-    }
-
+    function poll(){google.script.run.withSuccessHandler(function(s){if(!s.syncing){polling=false;render(s);return;}render(s);}).withFailureHandler(function(e){polling=false;document.getElementById('result').textContent='Error: '+e.message;}).getStatus();}
+    function refresh(){polling=false;google.script.run.withSuccessHandler(render).withFailureHandler(function(e){document.getElementById('status').textContent='Error: '+e.message;}).getStatus();}
+    function save(){const token=document.getElementById('token').value;if(!token)return alert('Please enter the GitHub token.');google.script.run.withSuccessHandler(function(){document.getElementById('result').textContent='Setup saved.';document.getElementById('token').value='';refresh();}).withFailureHandler(function(e){alert(e.message);}).setGithubToken(token);}
+    function sync(){google.script.run.withSuccessHandler(function(r){polling=true;document.getElementById('result').innerHTML='<div class="result">Sync started — found '+r.total+' photos.<br><span class="muted">You can close this page at any time.</span></div>';poll();}).withFailureHandler(function(e){document.getElementById('result').textContent='Error: '+e.message;}).startSync();}
     refresh();
-
-    if (AUTO_MESSAGE) {
-      document.getElementById('result').innerHTML =
-        '<div class="result">' + AUTO_MESSAGE + '<br><br>You can close this page. The synchronization will continue on Google servers.</div>';
-    }
+    if(AUTO_MESSAGE){document.getElementById('result').innerHTML='<div class="result">'+AUTO_MESSAGE+'<br><br>You can close this page. The synchronization will continue on Google servers.</div>';setTimeout(poll,500);}
   </script>
 </body>
 </html>
