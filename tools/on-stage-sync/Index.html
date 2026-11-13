@@ -20,25 +20,133 @@
   <div id="result"></div>
   <script>
     const AUTO_MESSAGE=<?!=JSON.stringify(autoSyncMessage||'')?>;
-    let polling=false;
+    const CHUNK_BYTES=786432;
+    let busy=false;
+    let currentProgress=null;
+
     function fmt(iso){if(!iso)return'—';return new Date(iso).toLocaleString('it-CH',{dateStyle:'medium',timeStyle:'short'});}
-    function render(s){
-      document.getElementById('status').textContent=s.githubConfigured?'✓ Ready to sync.':'Setup incomplete — enter the GitHub token above.';
-      const l=document.getElementById('last');
-      l.innerHTML=s.lastSync?'<div class="muted">Last sync: '+fmt(s.lastSync.completedAt)+'</div>':'';
-      if(s.syncing&&s.progress){
-        const p=s.progress, pct=p.total?Math.round(p.processed/p.total*100):100;
-        document.getElementById('sync').disabled=true;document.getElementById('sync').textContent='SYNCING…';
-        document.getElementById('result').innerHTML='<div class="result"><b>🔄 Sync in progress</b><div class="bar"><div class="fill" style="width:'+pct+'%"></div></div>'+p.processed+' / '+p.total+' photos ('+pct+'%)<br>🟢 Added: '+p.added+'<br>🔄 Updated: '+p.updated+'<br>⏭ Skipped: '+p.skipped+'<br>🔴 Removed: '+p.removed+'<br><span class="muted">You can close this page at any time. The synchronization will continue on Google servers.</span></div>';
-        polling=true;setTimeout(poll,1000);
-      }else if(!polling){document.getElementById('sync').disabled=false;document.getElementById('sync').textContent='↻ SYNC NOW';}
+    function showError(e){
+      busy=false;
+      const message=e&&e.message?e.message:String(e);
+      document.getElementById('sync').disabled=false;
+      document.getElementById('sync').textContent='↻ SYNC NOW';
+      document.getElementById('result').textContent='Error: '+message+' — You can press SYNC NOW to retry.';
+      google.script.run.recordSyncError(message);
     }
-    function poll(){google.script.run.withSuccessHandler(function(s){if(!s.syncing){polling=false;render(s);return;}render(s);}).withFailureHandler(function(e){polling=false;document.getElementById('result').textContent='Error: '+e.message;}).getStatus();}
-    function refresh(){polling=false;google.script.run.withSuccessHandler(render).withFailureHandler(function(e){document.getElementById('status').textContent='Error: '+e.message;}).getStatus();}
-    function save(){const token=document.getElementById('token').value;if(!token)return alert('Please enter the GitHub token.');google.script.run.withSuccessHandler(function(){document.getElementById('result').textContent='Setup saved.';document.getElementById('token').value='';refresh();}).withFailureHandler(function(e){alert(e.message);}).setGithubToken(token);}
-    function sync(){google.script.run.withSuccessHandler(function(r){polling=true;document.getElementById('result').innerHTML='<div class="result">Sync started — found '+r.total+' photos.<br><span class="muted">You can close this page at any time.</span></div>';poll();}).withFailureHandler(function(e){document.getElementById('result').textContent='Error: '+e.message;}).startSync();}
+    function renderStatus(s){
+      document.getElementById('status').textContent=s.githubConfigured?'✓ Ready to sync.':'Setup incomplete — enter the GitHub token above.';
+      document.getElementById('last').textContent=s.lastSync?'Last sync: '+fmt(s.lastSync.completedAt):'';
+      if(s.lastError&&!busy)document.getElementById('result').textContent='Last error: '+s.lastError;
+      if(s.syncing&&s.progress){currentProgress=s.progress;renderProgress(s.progress);}
+    }
+    function renderProgress(p){
+      const pct=p.total?Math.round(p.processed/p.total*100):100;
+      const phase=p.phase==='delete'?'Finalizing':'Optimizing and uploading';
+      document.getElementById('sync').disabled=true;
+      document.getElementById('sync').textContent='SYNCING…';
+      document.getElementById('result').innerHTML='<div class="result"><b>🔄 '+phase+'</b><div class="bar"><div class="fill" style="width:'+pct+'%"></div></div>'+p.processed+' / '+p.total+' photos ('+pct+'%)<br>🟢 Added: '+p.added+'<br>🔄 Updated: '+p.updated+'<br>⏭ Skipped: '+p.skipped+'<br>🔴 Removed: '+p.removed+'<br><span class="muted">Keep this page open until the sync is complete.</span></div>';
+    }
+    function refresh(){
+      google.script.run.withSuccessHandler(function(s){
+        renderStatus(s);
+        if(s.syncing&&!busy){busy=true;runNext();}
+      }).withFailureHandler(showError).getStatus();
+    }
+    function save(){
+      const token=document.getElementById('token').value;
+      if(!token)return alert('Please enter the GitHub token.');
+      google.script.run.withSuccessHandler(function(){
+        document.getElementById('result').textContent='Setup saved.';
+        document.getElementById('token').value='';
+        refresh();
+      }).withFailureHandler(showError).setGithubToken(token);
+    }
+    function sync(){
+      if(busy)return;
+      busy=true;
+      document.getElementById('sync').disabled=true;
+      document.getElementById('sync').textContent='STARTING…';
+      google.script.run.withSuccessHandler(function(r){
+        currentProgress={phase:'upload',processed:0,total:r.total,added:0,updated:0,skipped:0,removed:0};
+        runNext();
+      }).withFailureHandler(showError).startSync();
+    }
+    function runNext(){
+      google.script.run.withSuccessHandler(function(s){
+        if(!s.syncing){complete(s.lastSync);return;}
+        currentProgress=s.progress;
+        renderProgress(s.progress);
+        if(s.progress.phase==='upload'){
+          if(s.progress.processed>=s.progress.total){
+            google.script.run.withSuccessHandler(runNext).withFailureHandler(showError).finishUploads();
+          }else{
+            processPhoto(s.progress.processed);
+          }
+        }else{
+          google.script.run.withSuccessHandler(runNext).withFailureHandler(showError).deleteNextOldPhoto();
+        }
+      }).withFailureHandler(showError).getStatus();
+    }
+    function processPhoto(index){
+      google.script.run.withSuccessHandler(function(info){
+        fetchPhotoChunks(index,info,0,[]);
+      }).withFailureHandler(showError).getPhotoInfo(index);
+    }
+    function fetchPhotoChunks(index,info,offset,parts){
+      if(offset>=info.size){
+        const original=parts.join('');
+        if(info.mime==='image/gif'){
+          uploadPhoto(index,original,'image/gif');
+        }else{
+          compressPhoto(original,info.mime,function(compressed){
+            uploadPhoto(index,compressed,'image/jpeg');
+          });
+        }
+        return;
+      }
+      google.script.run.withSuccessHandler(function(part){
+        parts.push(part);
+        const bytes=Math.floor(part.length*3/4);
+        fetchPhotoChunks(index,info,offset+bytes,parts);
+      }).withFailureHandler(showError).getPhotoChunk(index,offset);
+    }
+    function compressPhoto(base64,mime,done){
+      const image=new Image();
+      image.onload=function(){
+        const scale=Math.min(1,2000/Math.max(image.naturalWidth,image.naturalHeight));
+        const width=Math.max(1,Math.round(image.naturalWidth*scale));
+        const height=Math.max(1,Math.round(image.naturalHeight*scale));
+        const canvas=document.createElement('canvas');
+        canvas.width=width;canvas.height=height;
+        const ctx=canvas.getContext('2d');
+        ctx.fillStyle='#fff';ctx.fillRect(0,0,width,height);
+        ctx.drawImage(image,0,0,width,height);
+        canvas.toBlob(function(blob){
+          if(!blob){showError(new Error('Could not compress '+mime+' image.'));return;}
+          const reader=new FileReader();
+          reader.onload=function(){
+            done(String(reader.result).split(',')[1]);
+          };
+          reader.onerror=function(){showError(new Error('Could not read compressed image.'));};
+          reader.readAsDataURL(blob);
+        },'image/jpeg',0.84);
+      };
+      image.onerror=function(){showError(new Error('Could not open one of the Drive photos.'));};
+      image.src='data:'+mime+';base64,'+base64;
+    }
+    function uploadPhoto(index,base64,mime){
+      google.script.run.withSuccessHandler(function(){runNext();})
+        .withFailureHandler(showError).uploadOptimizedPhoto(index,base64,mime);
+    }
+    function complete(result){
+      busy=false;
+      document.getElementById('sync').disabled=false;
+      document.getElementById('sync').textContent='↻ SYNC NOW';
+      document.getElementById('result').innerHTML='<div class="result"><b>✓ Sync complete</b><br>Photos: '+result.total+'<br>Added: '+result.added+'<br>Updated: '+result.updated+'<br>Removed: '+result.removed+'</div>';
+      refresh();
+    }
     refresh();
-    if(AUTO_MESSAGE){document.getElementById('result').innerHTML='<div class="result">'+AUTO_MESSAGE+'<br><br>You can close this page. The synchronization will continue on Google servers.</div>';setTimeout(poll,500);}
+    if(AUTO_MESSAGE){document.getElementById('result').textContent=AUTO_MESSAGE;}
   </script>
 </body>
 </html>
