@@ -45,8 +45,8 @@ function getStatus() {
   return {
     driveConfigured: !!CONFIG.DRIVE_FOLDER_ID,
     githubConfigured: !!props.getProperty(CONFIG.GITHUB_TOKEN_PROPERTY),
-    syncing: !!state,
-    progress: state ? {
+    syncing: !!state && state.version === 2,
+    progress: state && state.version === 2 ? {
       phase: state.phase,
       processed: state.index,
       total: state.items.length,
@@ -56,7 +56,8 @@ function getStatus() {
       removed: state.removed
     } : null,
     lastSync: lastRaw ? JSON.parse(lastRaw) : null,
-    lastError: props.getProperty(CONFIG.LAST_ERROR_PROPERTY) || ''
+    lastError: props.getProperty(CONFIG.LAST_ERROR_PROPERTY) ||
+      (state && state.version !== 2 ? 'An older incomplete sync was found. Press SYNC NOW to restart safely.' : '')
   };
 }
 
