@@ -106,7 +106,8 @@
       }
       google.script.run.withSuccessHandler(function(part){
         parts.push(part);
-        const padding=part.endsWith('==')?2:(part.endsWith('=')?1:0);\n        const bytes=part.length*3/4-padding;
+        const padding=part.endsWith('==')?2:(part.endsWith('=')?1:0);
+        const bytes=part.length*3/4-padding;
         fetchPhotoChunks(index,info,offset+bytes,parts);
       }).withFailureHandler(showError).getPhotoChunk(index,offset);
     }
