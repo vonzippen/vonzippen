@@ -82,7 +82,7 @@ function startSync() {
   var files = folder.getFiles();
   while (files.hasNext()) {
     var file = files.next();
-    if (/^image\\/(jpeg|png|webp|gif)$/i.test(file.getMimeType())) {
+    if (/^image\/(jpeg|png|webp|gif)$/i.test(file.getMimeType())) {
       items.push({
         id: file.getId(),
         name: cleanName(file.getName()),
@@ -272,11 +272,11 @@ function removeWorkerTriggers() {
 }
 
 function cleanName(name) {
-  return name.trim().replace(/[\\\\/:*?"<>|]/g, '-');
+  return name.trim().replace(/[\\/:*?"<>|]/g, '-');
 }
 
 function jpegName(name) {
-  return name.replace(/\\.(png|webp)$/i, '.jpg');
+  return name.replace(/\.(png|webp)$/i, '.jpg');
 }
 
 function githubUrl(path) {
